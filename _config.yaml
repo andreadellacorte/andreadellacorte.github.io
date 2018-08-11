@@ -3,7 +3,7 @@ name: muminof is Sardor Muminov
 
 description: Sardor Muminov's blog
 
-url: https://andreadellacorte.github.io/andreadellacorte2.github.io
+url: https://andreadellacorte.github.io
 
 plugins:
   - jekyll-feed

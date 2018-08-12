@@ -420,7 +420,7 @@ body {
   color: #202020;
   background-color: white;
 }
-  
+
 @media (min-width: 900px) {
   body {
     margin: 30px auto;
@@ -432,7 +432,7 @@ body {
 }
 
 a {
-  color: #F02050;
+  color: #4579B2;
   text-decoration: none;
 }
 a:hover {
@@ -440,7 +440,7 @@ a:hover {
 }
 a:focus, a:active {
   color: white;
-  background-color: #F02050;
+  background-color: #4579B2;
 }
 
 nav {
@@ -481,8 +481,8 @@ nav > span {
 }
 
 .remarkdown code {
-  color: #802020;  
-} 
+  color: #802020;
+}
 
 @media (max-width: 700px) {
   .remarkdown pre {

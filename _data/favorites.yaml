@@ -1,7 +1,0 @@
-- slug: lsyncd
-  name: File watching + Rsync = Lsync
-  url: https://www.digitalocean.com/community/tutorials/how-to-mirror-local-and-remote-directories-on-a-vps-with-lsyncd
-
-- slug: go-docker-beanstalk
-  name: Deploying Go Apps with Docker To AWS Elastic Beanstalk
-  url: http://www.topcoder.com/blog/deploying-go-apps-with-docker-to-elastic-beanstalk/

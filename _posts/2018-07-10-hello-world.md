@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello world
-tags: [programming, blogging]
+tags: [blogging]
 ---
 
 Omnis saepe ut eius ea autem. In consequatur maiores animi. Repellendus distinctio distinctio quas voluptatem eos rem ullam iure. Quisquam dolor temporibus nobis adipisci. Ipsam nostrum ut ea et velit quam.

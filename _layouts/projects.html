@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+<h2>Projects</h2>
+
+{% for item in site.projects %}
+  <p><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.description }}</p>
+{% endfor %}
+
+{% include footer.html %}

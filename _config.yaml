@@ -7,3 +7,6 @@ url: https://andreadellacorte.github.io
 
 plugins:
   - jekyll-feed
+
+collections:
+  - projects

@@ -2,9 +2,7 @@
 layout: base
 ---
 
-<h2>Projects</h2>
-
-{% for item in site.projects %}
+{% for item in site.data.projects.list %}
   <p><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.description }}</p>
 {% endfor %}
 

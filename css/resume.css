@@ -483,6 +483,27 @@ body {
   display: table;
 }
 
+.navbar-default .navbar-nav>li>a {
+  font-size: 18px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: #357ebd;
+  padding: 10px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #2A496B;
+}
+
+.dropdown-menu>li>a {
+    padding: 10px;
+    color: #357ebd;
+}
+.dropdown-menu>li>a:hover {
+    color: #2A496B;
+}
+
 .background-details .detail .icon {
   min-width: 45px;
   max-width: 45px;

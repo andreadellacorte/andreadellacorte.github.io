@@ -7,9 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Andrea Della Corte - Resume</title>
+  <link rel="preload" href="css/fonts/S6uyw4BMUTPHjx4wXiWtFCc.woff2" as="font" crossorigin>
+  <link rel="preload" href="css/fonts/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2" as="font" crossorigin>
+  <link rel="preload" href="css/fonts/icomoon.ttf" as="font" crossorigin>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/lato.css" />
   <link rel="stylesheet" href="css/resume.css" />
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 <body itemscope="itemscope" itemtype="http://schema.org/Person">
   <div class="container-fluid">
@@ -472,36 +477,6 @@
     </section>
   </div>
   </div>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(function() {
-      var toggleFloatingMenu = function() {
-        $('.js-floating-nav').toggleClass('is-visible');
-        $('.js-floating-nav-trigger').toggleClass('is-open');
-      };
-
-      $(".background-card").css("min-height", window.screen.availHeight + "px");
-      $("[data-toggle=tooltip]").tooltip();
-      $('.js-floating-nav-trigger').on('click', function(e) {
-        e.preventDefault();
-        toggleFloatingMenu();
-      });
-      $('.js-floating-nav a').on('click', toggleFloatingMenu);
-
-      $("#remaining-profiles").on('show.bs.collapse', function() {
-        $('.js-profiles-collapse > i')
-          .removeClass('icon-chevron-down')
-          .addClass('icon-chevron-up');
-      });
-
-      $("#remaining-profiles").on('hidden.bs.collapse', function() {
-        $('.js-profiles-collapse > i')
-          .removeClass('icon-chevron-up')
-          .addClass('icon-chevron-down');
-      });
-    });
-  </script>
 </body>
 
 </html>

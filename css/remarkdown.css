@@ -467,7 +467,7 @@ nav > span {
 .remarkdown ::before,
 .remarkdown ::after {
   opacity: .6;
-  color: #205080;
+  color: #F02050;
 }
 
 /* Our own font-family. Also setting one for code elements */

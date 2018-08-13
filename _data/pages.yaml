@@ -1,0 +1,18 @@
+list:
+- title: about
+  url: /about.html
+
+- title: posts
+  url: /
+
+- title: projects
+  url: /projects.html
+
+- title: resume
+  url: /resume.html
+
+- title: email
+  url: mailto:andrea@dellacorte.me
+
+- title: rss
+  url: /feed.xml

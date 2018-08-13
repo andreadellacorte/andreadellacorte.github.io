@@ -1,9 +1,10 @@
 <h1>
   Andrea Della Corte ~
-  <a href="/about.html">about</a>
-  <a href="/index.html">posts</a>
-  <a href="/projects.html">projects</a>
-  <a href="/resume.html">resume</a>
-  <a href="mailto:andrea@dellacorte.me">email</a>
-  <a href="/feed.xml">rss</a>
+  {% for item in site.data.pages.list %}
+    {% if item.url == page.url %}
+      <em>{{ item.title }}</em>
+    {% else %}
+      <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+    {% endif %}
+  {% endfor %}
 </h1>

@@ -1,5 +1,4 @@
 ---
-layout: tagpage
+layout: tag
 tag: blogging
-permalink: /tags/blogging/
 ---

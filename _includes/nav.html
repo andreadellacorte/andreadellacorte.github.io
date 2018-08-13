@@ -1,7 +1,13 @@
 <h1>
   Andrea Della Corte ~
   {% for item in site.data.pages.list %}
-    {% if item.url == page.url %}
+    {% if page.url != "/" %}
+      {% assign new_var = item.url | append: '.html' %}
+    {% else %}
+      {% assign new_var = item.url %}
+    {% endif %}
+
+    {% if new_var == page.url %}
       <em>{{ item.title }}</em>
     {% else %}
       <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>

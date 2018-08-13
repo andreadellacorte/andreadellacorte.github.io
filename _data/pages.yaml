@@ -1,15 +1,15 @@
 list:
 - title: about
-  url: /about.html
+  url: /about
 
 - title: posts
   url: /
 
 - title: projects
-  url: /projects.html
+  url: /projects
 
 - title: resume
-  url: /resume.html
+  url: /resume
 
 - title: email
   url: mailto:andrea@dellacorte.me

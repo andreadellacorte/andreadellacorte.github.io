@@ -432,7 +432,7 @@ body {
 }
 
 a {
-  color: #337AB1;
+  color: #477DB8;
   text-decoration: none;
 }
 a:hover {
@@ -440,7 +440,7 @@ a:hover {
 }
 a:focus, a:active {
   color: white;
-  background-color: #337AB1;
+  background-color: #477DB8;
 }
 
 nav {

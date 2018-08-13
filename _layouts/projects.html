@@ -2,8 +2,10 @@
 layout: base
 ---
 
+<ul>
 {% for item in site.data.projects.list %}
-  <p><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.description }}</p>
+  <li><a href="{{ item.url }}">{{ item.title }}</a> - {{ item.description }}</li>
 {% endfor %}
+</ul>
 
 {% include footer.html %}

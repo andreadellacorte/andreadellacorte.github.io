@@ -14,5 +14,8 @@ list:
 - title: email
   url: mailto:andrea@dellacorte.me
 
+- title: subscribe
+  url: /subscribe
+
 - title: rss
   url: /feed.xml

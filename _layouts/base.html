@@ -2,10 +2,7 @@
 <html lang="en">
 	{% include header.html %}
 	<body class="remarkdown">
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PX5B9LV"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+		{% include body_analytics.html %}
 		{% include nav.html %}
 		<main class="remarkdown h1-underline h2-underline">
 			{{ content }}

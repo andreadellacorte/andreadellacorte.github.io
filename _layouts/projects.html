@@ -3,8 +3,8 @@ layout: base
 ---
 
 <ul>
-{% for item in site.projects %}
-  <li><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</li>
+{% for project in site.projects %}
+  <li><a href="{{ project.url }}">{{ project.title }}</a> - {{ project.description }}</li>
 {% endfor %}
 </ul>
 

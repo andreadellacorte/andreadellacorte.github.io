@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/andreadellacorte
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://andreadellacorte.github.io
+  * I am andreadellacorte (https://keybase.io/andreadellacorte) on keybase.
+  * I have a public key with fingerprint AB58 A7C8 AD6A 6802 DA94  A208 C72C 1F7A 96DE 05F3
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012090c59fe1c54da1207841f4e4d4cb12ae599e5fd8accd5f88b25fa5a9d2b2ba0a",
+      "fingerprint": "ab58a7c8ad6a6802da94a208c72c1f7a96de05f3",
+      "host": "keybase.io",
+      "key_id": "c72c1f7a96de05f3",
+      "kid": "01012090c59fe1c54da1207841f4e4d4cb12ae599e5fd8accd5f88b25fa5a9d2b2ba0a",
+      "uid": "90ba569b219f5db5aca256223eca2219",
+      "username": "andreadellacorte"
+    },
+    "service": {
+      "hostname": "andreadellacorte.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1535356746,
+  "expire_in": 157680000,
+  "prev": "f5d15c18e8e69b539a1cefb40d587cd88a2996783d955ef03b7e4ad9a6a8b9e2",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMIvAnicrVJZSBVRGL43U0sI0xbBbBuisOwyM3fOLDdooYJcIqXIMvF6ttHR68xt
+7miaWEFl0kNqq6BCZJc2q4fopcVSfIiKHpLyQkTZQpAlqG0vUWes3uqtcx7O+f/z
+fd//fz+nf1qcJ8lbW4GWvdjRus/7oPdKtWfH/qs59RyySB0XqOcq6cRBQ4RGnGCl
+QbgAxwu8IPIaj4GmUwEDiUAWK6ok6BKViISRIEIKNI0CnagQYwJ0VUUi0CGAGhGR
+iCAPuSxON8wyaodtw3SYLERAhQpWIZGhrPIigZoERV7FiogFXYGaTCgPdD8jllsR
+l8GaQzBCfYbFciwITrT3F/x/7rt6Qk7jEQSyhkRB0wFBAGIoAlkU/ZRdWNIFRqht
+wirqujOJTSGhoRDElu1QriGLY681BqbugF1H/0D6ygynvBr9chm2LcfCVojhyh0n
+HAm4Ok5d2CXuoij4WzKIDJOw6TJGDbUjhmVyAYEhsWO4NQTgZ1tWJDmLo7Vhw6ZB
+w0UAhQ2eLbcOrWGSzJgAsKBSlTKnwK9BAVMdSTwBqoKJqkJR02RF9RMNAKrzfqRQ
+CRINylBFGhU51+RO0+ICfpH1CcuYZsQoM6FTbbMR9N0tnuzxJnkS4ie5386TNHX6
+n88ofZniObRqbinSlw95V91Y9DXl5dYR2Syadcc/4Hu+oTExdina+vht4XDvp7T8
+S21WZvbJ1VUVnVF6bv6PSXZGrNub2Pn65uDxloYtufnnLsQpyX3jvNAxozC64MJY
+/JFt/XsSh5623G/OLj59AK3fiNc1we+H0GHfYFP5q4/ZsdE7RT598FnJcJ40nNH6
+MJp6WU0teRPd3T33UV701PicxWtvd4WbPrRM33nr2rvKz97m52tSjiV8P5PeP2/r
+5qPpsxdm9mzOz8nKTKDvnywZbW+b8+zivNKipQXXRwqSV46daAudrd/3rXH9p4qB
+85vSZjS0z+zpy713sG7vkvqcRdtHR2KNXSsyOn4CQN1JRg==
+=A6s1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andreadellacorte
+
+==================================================================

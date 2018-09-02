@@ -2,11 +2,11 @@ list:
 - title: about
   url: /about
 
-- title: posts
+- title: principles
   url: /
 
-- title: projects
-  url: /projects
+- title: bookshelf
+  url: /books
 
 - title: resume
   url: /resume

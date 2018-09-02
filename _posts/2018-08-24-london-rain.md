@@ -1,9 +1,8 @@
 ---
-title: Haikus
-description: Poetry
+layout: post
+title: London Rain
+tags: [haikus]
 ---
-
-### London, 24th August 2018
 
 London heavy rain
 

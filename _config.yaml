@@ -12,12 +12,12 @@ author:
   andreadellacorte
 
 collections:
-  projects:
+  books:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "books"
     values:
-      layout: project
+      layout: book

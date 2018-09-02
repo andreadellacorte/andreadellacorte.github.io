@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+Empty :(
+
+<ul>
+{% for book in site.books %}
+  <li><a href="{{ book.url }}">{{ book.title }}</a> - {{ book.description }}</li>
+{% endfor %}
+</ul>
+
+{% include footer.html %}

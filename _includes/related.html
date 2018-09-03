@@ -1,6 +1,9 @@
-<h2>Other {{ page.tags[0] | capitalize_all }} Pages</h2>
 {% assign just_tag = page.tags[0] %}
-<ul>
+
+{% unless site.tags[just_tag].size == 1 %}
+
+  <h2>Other {{ page.tags[0] | capitalize_all }} Pages</h2>
+  <ul>
     {% for post in site.tags[just_tag] %}
       {% unless post.url == page.url %}
         <li>
@@ -8,4 +11,5 @@
         </li>
       {% endunless %}
     {% endfor %}
-</ul>
+  </ul>
+{% endunless %}

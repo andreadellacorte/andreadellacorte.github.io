@@ -1,7 +1,7 @@
 ---
 layout: post
 title: London Rain
-tags: [haikus]
+tags: [london]
 ---
 
 London heavy rain

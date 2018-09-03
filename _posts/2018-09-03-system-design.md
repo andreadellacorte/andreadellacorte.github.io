@@ -7,8 +7,8 @@ tags: [system design]
 An algorithm for solving system design interviews:
 
 1. Requirements
-  - Use cases
-  - Users x Performances x Availability x ACID
+  - Extract use cases
+  - Understand: Users x Performances x [ACID](acid-properties.html) x [CAP](cap-theorem.html)
 2. Math
   - Data in (Concurrency) X Data out
   - Latency x Throughput
@@ -17,7 +17,8 @@ An algorithm for solving system design interviews:
   - Performance (Response time, Scalability, CPU / IO / Network bound applications)
   - Confidentiality (Encryption)
 4. High level design
-  - Evaluate use cases: what is the flow for each of them? Usually results in at minimum:
+  - Evaluate use cases: what is the flow for each of them?
+  - This usually results in, at a minimum:
     - Application layer & responsibilities
     - Database layer & responsibilities
 5. Detailed design

@@ -606,7 +606,6 @@ body {
 
 .mop-wrapper>p:last-child {
   margin: 0;
-  font-size: 13px;
 }
 
 /*
@@ -780,7 +779,10 @@ Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
 }
 
 .contact-details .detail .info {
-  font-size: 0.8em;
+}
+
+.h5, h5 {
+  font-size: 17px;
 }
 
 .contact-details .detail .icon,

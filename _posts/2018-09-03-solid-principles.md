@@ -1,10 +1,10 @@
 ---
 layout: post
-title: SOLID principles
+title: SOLID Principles
 tags: [software architecture]
 ---
 
-SOLID are five basic principles which help to create good software architecture. SOLID is an acronym where:-
+SOLID are five basic principles which help create good software architecture. SOLID is an acronym where:
 
 - S stands for SRP (Single responsibility principle): A class should take care of only one responsibility.
 - O stands for OCP (Open closed principle): Extension should be preferred over modification.

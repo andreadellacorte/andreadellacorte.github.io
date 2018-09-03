@@ -3,8 +3,10 @@ layout: base
 ---
 <div class="row">
 	<h2>{{ page.title }}</h2>
-	<p>{{ page.date | date: "%B %-d, %Y" }}</p>
+	<p>On {{ page.date | date: "%B %-d, %Y" }} in <a href="/tags/{{ page.tags[0] }}">{{ page.tags[0] | capitalize_all }}</a></p>
 </div>
 <div class="row">{{content}}</div>
+
+{% include related.html %}
 
 {% include footer.html %}

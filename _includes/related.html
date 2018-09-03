@@ -1,0 +1,11 @@
+<h2>Other {{ page.tags[0] | capitalize_all }} Pages</h2>
+{% assign just_tag = page.tags[0] %}
+<ul>
+    {% for post in site.tags[just_tag] %}
+      {% unless post.url == page.url %}
+        <li>
+          {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endunless %}
+    {% endfor %}
+</ul>

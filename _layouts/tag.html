@@ -3,7 +3,10 @@ layout: base
 title: Andrea Della Corte
 ---
 
-<h2>Posts with tag: {{ page.tag | capitalize_all }}</h2>
+{% assign words = page.tag | split: " " %}
+{% capture tagTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
+
+<h2>Principles in {{ tagTitle }}</h2>
 
 <ul>
     {% for post in site.tags[page.tag] %}

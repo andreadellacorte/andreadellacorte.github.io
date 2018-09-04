@@ -1,9 +1,10 @@
 ---
 layout: base
 ---
+
 <div class="row">
 	<h2>{{ page.title }}</h2>
-	<p>On {{ page.date | date: "%B %-d, %Y" }} in <a href="/tags/{{ page.tags[0] }}">{{ page.tags[0] | capitalize_all }}</a></p>
+	<p>On {{ page.date | date: "%B %-d, %Y" }} in <a href="/tags/{{ page.tags[0] }}">{{ page.tags[0] }}</a></p>
 </div>
 <div class="row">{{content}}</div>
 

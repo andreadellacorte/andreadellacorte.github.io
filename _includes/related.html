@@ -2,7 +2,10 @@
 
 {% unless site.tags[just_tag].size == 1 %}
 
-  <h2>Other {{ page.tags[0] | capitalize_all }} Pages</h2>
+  {% assign words = just_tag | split: " " %}
+  {% capture tagTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
+
+  <h2>Other {{ tagTitle }} Pages</h2>
   <ul>
     {% for post in site.tags[just_tag] %}
       {% unless post.url == page.url %}

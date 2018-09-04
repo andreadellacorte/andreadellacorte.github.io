@@ -1,6 +1,6 @@
 ---
 layout: post
-title: System Design Algorithm
+title: Algorithm
 tags: [system design]
 ---
 

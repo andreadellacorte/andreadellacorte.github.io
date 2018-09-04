@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ACID Properties
+title: ACID
 tags: [system design]
 ---
 

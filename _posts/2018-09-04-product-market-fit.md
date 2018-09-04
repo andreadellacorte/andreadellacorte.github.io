@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Product Market Fit
+title: Market Fit
 tags: [entepreneurship]
 ---
 

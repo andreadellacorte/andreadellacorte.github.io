@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 20 Productivity Hacks
+title: Hacks
 tags: [productivity]
 ---
 

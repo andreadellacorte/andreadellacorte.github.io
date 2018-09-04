@@ -1,14 +1,12 @@
 ---
 layout: post
-title: TCP/IP Model
+title: TCP/IP
 tags: [computer networks]
 ---
 
-As a description framework used in computer network protocols, the TCP/IP model sets forth the design guidelines in a general sense as well as the specific networking protocol implementation. This creates a way for computers to interface via network connections.
+The TCP/IP model is a set of design guidelines and protocol implementations that enable computers to interface with each other via network connections, maintained by the Internet Engineering Task Force (IETF). TCP/IP provides end-to-end connectivity and delineates how data must be formatted, as well as addressed, transmitted, routed and received.
 
-TCP/IP does provide end-to-end connectivity, and also delineates the way in which data must be formatted, as well as addressed, transmitted and routed, and even the way it will be received. There are various protocols for communication services to and from computers.
-
-There are four unique layers in the TCP/IP model. This is represented in the below image. The Internet Engineering Task Force (IETF) maintains the TCP/IP model and other related protocols. In another model, the OSI Reference Model, there are actually seven (7) layers. The TCP/IP model has fewer steps because it allows applications to manage actions past a certain layer.
+There are four layers in the model:
 
 - The Application Layer (or Layer 4)
   - Programs communicate through application layers. Think of it as a “user interface layer.” Through application layers, browser, file-sharing software, email software, and other user-facing (the user interacts with the software directly) software can interact.

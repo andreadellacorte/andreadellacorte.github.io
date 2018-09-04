@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SOLID Principles
+title: SOLID
 tags: [software architecture]
 ---
 

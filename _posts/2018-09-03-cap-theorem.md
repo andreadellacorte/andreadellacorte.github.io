@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CAP Theorem
+title: CAP
 tags: [system design]
 ---
 

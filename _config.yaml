@@ -1,5 +1,4 @@
-
-name: adielleci is Andrea Della Corte
+title: adielleci is Andrea Della Corte
 
 description: Andrea Della Corte's blog
 
@@ -8,8 +7,7 @@ url: https://andreadellacorte.github.io
 plugins:
   - jekyll-feed
 
-author:
-  andreadellacorte
+author: andreadellacorte
 
 collections:
   books:
@@ -21,3 +19,12 @@ defaults:
       type: "books"
     values:
       layout: book
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:year/:month/:day/:title/

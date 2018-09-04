@@ -1,12 +1,13 @@
 list:
-- title: about
-  url: /about
 
 - title: principles
   url: /
 
 - title: bookshelf
   url: /books
+
+- title: about
+  url: /about
 
 - title: resume
   url: /resume

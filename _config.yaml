@@ -2,10 +2,11 @@ title: adielleci is Andrea Della Corte
 
 description: Andrea Della Corte's blog
 
-url: https://andreadellacorte.github.io
+url: https://dellacorte.me
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 author: andreadellacorte
 

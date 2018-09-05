@@ -1,4 +1,25 @@
 ---
-layout: books
-title: Andrea Della Corte
+layout: base
+title: Bookshelf
 ---
+
+Currently Reading:
+
+<ul>
+  <li> The Art of Worldly Wisdom
+  <li> The Relationship Manager
+</ul>
+
+Currently Listening:
+
+<ul>
+  <li> 12 Rules for Life
+</ul>
+
+<ul>
+{% for book in site.books %}
+  <li><a href="{{ book.url }}">{{ book.title }}</a> - {{ book.description }}</li>
+{% endfor %}
+</ul>
+
+{% include footer.html %}

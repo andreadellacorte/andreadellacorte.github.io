@@ -4,6 +4,8 @@ description: Andrea Della Corte's blog
 
 url: https://dellacorte.me
 
+twitter_username: adielleci
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

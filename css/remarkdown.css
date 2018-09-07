@@ -500,3 +500,19 @@ nav > span {
 #style-list tr > * {
   white-space: nowrap;
 }
+
+.remarkdown.table-marker h4::before {
+  content: "";
+}
+
+.remarkdown.table-marker h3::after,
+.remarkdown.table-marker h4::after {
+  content: "";
+}
+
+.remarkdown.table-marker h3,
+.remarkdown.table-marker h4 {
+  display:inline;
+  margin-top: 0;
+  margin-bottom: 0;
+}

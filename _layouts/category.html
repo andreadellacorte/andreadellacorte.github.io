@@ -3,7 +3,7 @@ layout: base
 title: Andrea Della Corte
 ---
 
-{% assign words = page.category | split: " " %}
+{% assign words = page.category | split: "-" %}
 {% capture tagTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
 
 <h2>Principles in {{ tagTitle }}</h2>

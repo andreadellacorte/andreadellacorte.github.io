@@ -3,4 +3,44 @@ layout: base
 title: Principles
 ---
 
-{% include principles.html %}
+<h2>{{ page.title }}</h2>
+
+This is my bag of awesome: notes, tricks, systems and tools.
+
+</p>Also available as a <a href="/posts">timeline</a>.
+
+<div class="remarkdown table-marker">
+
+  <table style="width: 100%">
+    <colgroup>
+      <col span="1" style="width: 30%;">
+      <col span="1" style="width: 70%;">
+    </colgroup>
+    <tr>
+      <th scope="col">Category</th>
+      <th scope="col">Notes</th>
+    </tr>
+    {% for category in site.categories %}
+      {% assign cat = category[0] %}
+
+      {% if cat == 'principles' %}
+        {% continue %}
+      {% endif %}
+
+      {% assign words = cat | split: "-" %}
+      {% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
+
+      <tr>
+        <td><h3>{{ catTitle }}</h3></td>
+        <td>
+          {% for post in site.categories[cat] %}
+            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            {% unless forloop.last %} • {% endunless %}
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+{% include footer.html %}

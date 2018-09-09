@@ -22,12 +22,11 @@ defaults:
       type: "books"
     values:
       layout: book
-
-permalink: pretty
+      permalink: :collections/:title
 
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      permalink: /:year/:month/:day/:title/
+      permalink: :categories/:title

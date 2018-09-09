@@ -28,5 +28,3 @@ defaults:
   - scope:
       path: ""
       type: "posts"
-    values:
-      permalink: :categories/:title

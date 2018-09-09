@@ -1,6 +1,6 @@
-{% unless site.tags[page.category].size == 1 %}
+{% unless site.categories[page.category].size <= 1 %}
 
-  {% assign words = page.category | split: " " %}
+  {% assign words = page.category | split: "-" %}
   {% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
 
   <h2>Other {{ catTitle }} Pages</h2>

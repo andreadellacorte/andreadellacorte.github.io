@@ -7,7 +7,7 @@
       {% assign new_var = item.url %}
     {% endif %}
 
-    {% if new_var == page.url or (item.url == '/' and page.url == '/principles.html') %}
+    {% if new_var == page.url %}
       <em>{{ item.title }}</em>
     {% else %}
       <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>

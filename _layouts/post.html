@@ -4,7 +4,7 @@ layout: base
 
 <div class="row">
 	<h2>{{ page.title }}</h2>
-	<p>On {{ page.date | date: "%B %-d, %Y" }} in <a href="/principles/{{ page.category | split: ' ' | join: '-' }}">{{ page.category }}</a></p>
+	<p>On {{ page.date | date: "%B %-d, %Y" }} in <a href="/principles/{{ page.category }}">{{ page.category | split: '-' | join: ' ' }}</a></p>
 
   {% if page.toc %}
 		<h3> Table of Contents

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TCP/IP
-category: computer networks
+category: computer-networks
 ---
 
 The TCP/IP model is a set of design guidelines and protocol implementations that enable computers to interface with each other via network connections, maintained by the Internet Engineering Task Force (IETF). TCP/IP provides end-to-end connectivity and delineates how data must be formatted, as well as addressed, transmitted, routed and received.

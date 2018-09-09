@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: fitness
+category: fitness
 permalink: /principles/fitness
 ---

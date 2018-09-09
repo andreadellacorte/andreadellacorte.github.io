@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: entepreneurship
+category: entepreneurship
 permalink: /principles/entepreneurship
 ---

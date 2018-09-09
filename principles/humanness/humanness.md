@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: humanness
+category: humanness
 permalink: /principles/humanness
 ---

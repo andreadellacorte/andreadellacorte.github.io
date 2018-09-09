@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: london
+category: london
 permalink: /principles/london
 ---

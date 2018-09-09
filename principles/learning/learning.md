@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: learning
+category: learning
 permalink: /principles/learning
 ---

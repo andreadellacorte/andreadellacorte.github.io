@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: relationships
+category: relationships
 permalink: /principles/relationships
 ---

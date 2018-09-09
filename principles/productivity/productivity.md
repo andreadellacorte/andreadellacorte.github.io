@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: productivity
+category: productivity
 permalink: /principles/productivity
 ---

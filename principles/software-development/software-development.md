@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Andrea Della Corte
-tag: software development
+category: software development
 permalink: /principles/software-development
 ---

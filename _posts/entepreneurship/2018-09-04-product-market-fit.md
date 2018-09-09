@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Product Market Fit
-tags: [entepreneurship]
+category: entepreneurship
 ---
 
 Notes from [Peter Rheinhart's How to Find Product Market Fit](https://www.startupschool.org/videos/13 ).

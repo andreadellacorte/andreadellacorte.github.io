@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Idea to Launch
-tags: [entepreneurship]
+category: entepreneurship
 ---
 
 ### Step 1: Ideate

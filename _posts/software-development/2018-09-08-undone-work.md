@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Undone Work
-tags: [software development]
+category: software development
 ---
 
 I received this question via email:

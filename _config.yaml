@@ -28,3 +28,5 @@ defaults:
   - scope:
       path: ""
       type: "posts"
+    values:
+      permalink: /:year/:month/:day/:title/

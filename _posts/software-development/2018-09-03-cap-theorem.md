@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CAP
-category: system design
+category: software-development
 ---
 
 In theoretical computer science, the CAP theorem states that it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees:

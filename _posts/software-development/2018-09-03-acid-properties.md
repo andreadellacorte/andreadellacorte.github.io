@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ACID
-category: software development
+category: software-development
 ---
 
 ACID is a set of properties that you would like to apply when modifying a database.

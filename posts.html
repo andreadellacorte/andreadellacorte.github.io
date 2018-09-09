@@ -13,7 +13,7 @@ title: Timeline
 			{{ post.content | number_of_words | minus: 250 }}
 		{% endcapture %}
 		{{ post.date | date: "%B %-d, %Y"  }} •
-    <a href="/principles/{{ post.categories[1] }}">{{ post.categories[1] | split: '-' | join: ' ' }}</a> •
+    <a href="/principles/{{ post.category }}">{{ post.category | split: '-' | join: ' ' }}</a> •
 		{% if words contains "-" %}
 			1 minute read
 		{% else %}

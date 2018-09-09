@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SOLID
-category: software architecture
+category: software-development
 ---
 
 SOLID are five basic principles which help create good software architecture. SOLID is an acronym where:

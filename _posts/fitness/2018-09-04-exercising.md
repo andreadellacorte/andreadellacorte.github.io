@@ -1,5 +1,5 @@
 ---
 layout: post
 title: Exercising
-tags: [humanness]
+category: humanness
 ---

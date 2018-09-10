@@ -1,11 +1,13 @@
-{% unless site.categories[page.category].size <= 1 %}
+{{ page.category }}
+
+{% unless site.categories[page.category].size == 1 %}
 
   {% assign words = page.category | split: "-" %}
   {% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
 
   <h2>Other {{ catTitle }} Pages</h2>
   <ul>
-    {% for post in site.tags[just_tag] %}
+    {% for post in site.categories[page.category] %}
       {% unless post.url == page.url %}
         <li>
           {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>

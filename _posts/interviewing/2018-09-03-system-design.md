@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Algorithm
-category: software-development
+title: System Design
+category: interviewing
 ---
 
 An algorithm for solving system design interviews:

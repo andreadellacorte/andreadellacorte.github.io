@@ -1,6 +1,6 @@
-title: adielleci is Andrea Della Corte
+title: Andrea Della Corte
 
-description: Andrea Della Corte's blog
+description: Life coach & aspiring expert
 
 url: https://dellacorte.me
 
@@ -10,7 +10,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-author: andreadellacorte
+author: Andrea Della Corte
 
 collections:
   books:

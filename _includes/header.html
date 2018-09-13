@@ -14,7 +14,14 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@adielleci">
   <meta name="twitter:creator" content="@adielleci">
-  <title>{{ page.title }}</title>
+
+  {% if page.category %}
+    {% assign words = page.category | split: "-" %}
+    {% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
+    <title>{{ catTitle }} > {{ page.title }}</title>
+  {% else %}
+    <title>{{ page.title }}</title>
+  {% endif %}
   <link href="/css/remarkdown.css" rel="stylesheet">
   <link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico" />
   {% feed_meta %}

@@ -516,3 +516,8 @@ nav > span {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+img {
+  width: 80%;
+  height: auto;
+}

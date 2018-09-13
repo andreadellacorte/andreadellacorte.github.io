@@ -3,6 +3,8 @@ layout: base
 ---
 <div class="row">
 	<h2>{{ page.title }} - {{ page.description }}</h2>
+	<h3> Table of Contents</h3>
+	{% include toc.html html=content %}
 </div>
 <div class="row">{{content}}</div>
 

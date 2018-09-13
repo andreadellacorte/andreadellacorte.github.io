@@ -7,7 +7,7 @@ layout: base
 	<p>On {{ page.date | date: "%B %-d, %Y" }} in <a href="/">{{ page.category | split: '-' | join: ' ' }}</a></p>
 
   {% if page.toc %}
-		<h3> Table of Contents
+		<h3> Table of Contents</h3>
 		{% include toc.html html=content %}
 	{% endif %}
 </div>

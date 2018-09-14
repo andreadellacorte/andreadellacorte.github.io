@@ -18,7 +18,7 @@
   {% if page.category %}
     {% assign words = page.category | split: "-" %}
     {% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
-    <title>{{ catTitle }} > {{ page.title }}</title>
+    <title>{{ page.title }}</title>
   {% else %}
     <title>{{ page.title }}</title>
   {% endif %}

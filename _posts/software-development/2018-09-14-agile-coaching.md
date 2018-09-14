@@ -23,6 +23,6 @@ Agile Coaching is defined by the following [framework of competencies](http://ag
 
 The Agile Coach applies the competencies above to People and Processes to create Behaviours and Environments that support the achievement of Results.
 
-<center><img src="/img/software-development/agile-coaching.png"></center>
+<center><img src="{{site.url}}/img/software-development/agile-coaching.png"></center>
 
 Based on the scope of the results desired, the Agile Coach works with one or more Organisational levels (Team, Team of Teams, Portfolio, Exec) to invite improvements that create High Performing Teams.

@@ -4,13 +4,11 @@ title: Agile Coaching
 category: software-development
 ---
 
-Notes from [Adventure with Agile](https://www.adventureswithagile.com) webinar on Agile Coaching; the session's recording is available on [YouTube](https://www.youtube.com/watch?v=pReBVbJFRBU).
+### Competencies
 
-### Agile Coaching Competencies
+In the [Adventure with Agile](https://www.adventureswithagile.com) webinar on Agile Coaching (recording available on [YouTube](https://www.youtube.com/watch?v=pReBVbJFRBU)) Agile Coaching is defined by the following [framework of competencies](http://agilecoachinginstitute.com/agile-coaching-resources/):
 
-Agile Coaching is defined by the following [framework of competencies](http://agilecoachinginstitute.com/agile-coaching-resources/):
-
-<img src="{{site.url}}/img/software-development/agile-coach-skills.jpg">
+<img src="{{site.url}}/img/software-development/agile-coach-competencies.jpg">
 
 - Agile-Lean Practitioner: Ability to learn and deeply understand Agile frameworks and Lean principles, not only at the level of practices, but also at the level of the principles and values that underlie the practices enabling appropriate application as well as innovation.
 - Professional Coaching: Ability to act as a coach, with the client’s interest determining the direction, rather than the coach’s expertise or opinion.
@@ -21,10 +19,60 @@ Agile Coaching is defined by the following [framework of competencies](http://ag
 - Business Mastery: Ability to apply business strategy and management frameworks to employ agile as a competitive business advantage such as Lean Start-Up, product innovation techniques, flow-based business process management approaches, and other techniques that relate to innovating in the business domain.
 - Transformation Mastery: Ability to facilitate, catalyze and (as appropriate) lead organizational change and transformation. This area draws on change management, organization culture, organization development, systems thinking, and other behavioral sciences.
 
-### Agile Coach Positioning
-
 The Agile Coach applies the competencies above to People and Processes to create Behaviours and Environments that support the achievement of Results.
 
 <img src="{{site.url}}/img/software-development/agile-coach-where.png">
 
 Based on the scope of the results desired, the Agile Coach works with one or more Organisational levels (Team, Team of Teams, Portfolio, Exec) to invite improvements that create High Performing Teams.
+
+### Elements
+
+Another model, based on 8 different elements (hats) is presented by [Mia Horrigan (ZenExMachina Agile Coach)](https://zenexmachina.wordpress.com/2016/05/01/confressions-of-a-scrum-mum-how-the-short-term-heroics-dont-scale/). The model is based on 8 elements:
+
+<img src="{{site.url}}/img/software-development/agile-coach-elements.png">
+
+- Mentor – Develops ‘how to’s
+- Consultant – Develops frameworks
+- Coach – Develops and sets shared goals
+- Counsellor – Develops structures to resolve disfunction
+- Change Agent – Focusses on embedding change
+- Facilitator – Supports a formal outcome without advice
+- Lean Leader – Develops people
+- Trainer/Teacher – Focuses on skills development through instruction
+
+This model has done away with the technical, business and transformation masteries, enabling the model to apply to any domain whether the coach has a technical background or whether the coach is coaching in technical, design or business environment; the coaching competencies have been turned into the following behaviours:
+
+- Listening with empathy
+- Asking deep questions
+- Empowering people
+- Enabling people to act
+- Reinforcing agile behaviours
+- Increasing insight
+
+This model gives coaches a language they can use for discussion as not only a shared way of addressing issues but also to recognise strengths in each other’s coaching styles.
+
+To use this model, coaches gather to look at problems, issues and capability growth opportunities and discuss which one should be tackled in the future. The coaches can then retrospect on the root causes, determine which coaching element applies best to the context, and which coach has the greatest strength in that area.
+
+That coach then leaves to plan and remedy and/or support the issue at hand.
+
+The 8 elements model also provides a set of behaviours to master on your path to the "Heart of Agile":
+
+<img src="{{site.url}}/img/software-development/agile-coach-heart-of-agile-path.png">
+
+The path above sees the coach progress on its Shu-ha-ri journey, a Japanese martial art concept describing the stages a martial arts student progresses, through three levels:
+
+- Shu (obey): a student learns the basics from their teacher;
+- Ha (digress): students may choose to digress from doing what they are told;
+- Ri (separate): they don’t follow techniques as moves are now natural.
+
+The [Heart of Agile model](http://heartofagile.com/?p=97), proposed by Dr. Alistair Cockburn, co-author of the Agile Manifesto, adds a new state that's reached at the end of the Shu-ha-ri journey:
+
+- Kokoro (heart): Kokoro is about having a fundamental understanding of the basics, returning to "essence", which is four words:
+  - Collaborate
+  - Deliver
+  - Reflect
+  - Improve
+
+Each of these words can then be further expanded to create new levels and actions to reflect on, which can help guides our paths to being an Elite Agile Coach:
+
+<img src="{{site.url}}/img/software-development/agile-coach-heart-of-agile.png">

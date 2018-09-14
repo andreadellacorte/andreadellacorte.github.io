@@ -10,6 +10,8 @@ Notes from [Adventure with Agile](https://www.adventureswithagile.com) webinar o
 
 Agile Coaching is defined by the following [framework of competencies](http://agilecoachinginstitute.com/agile-coaching-resources/):
 
+<img src="{{site.url}}/img/software-development/agile-coach-skills.jpg">
+
 - Agile-Lean Practitioner: Ability to learn and deeply understand Agile frameworks and Lean principles, not only at the level of practices, but also at the level of the principles and values that underlie the practices enabling appropriate application as well as innovation.
 - Professional Coaching: Ability to act as a coach, with the client’s interest determining the direction, rather than the coach’s expertise or opinion.
 - Facilitating: Neutral process holder that guides the individual’s, team’s, or organization’s process of discovery, holding to their purpose and definition of success.
@@ -23,6 +25,6 @@ Agile Coaching is defined by the following [framework of competencies](http://ag
 
 The Agile Coach applies the competencies above to People and Processes to create Behaviours and Environments that support the achievement of Results.
 
-<center><img src="{{site.url}}/img/software-development/agile-coaching.png"></center>
+<img src="{{site.url}}/img/software-development/agile-coach-where.png">
 
 Based on the scope of the results desired, the Agile Coach works with one or more Organisational levels (Team, Team of Teams, Portfolio, Exec) to invite improvements that create High Performing Teams.

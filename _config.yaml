@@ -15,8 +15,6 @@ author: Andrea Della Corte
 collections:
   books:
     output: true
-  principles:
-    output: true
 
 defaults:
   - scope:

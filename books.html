@@ -8,27 +8,21 @@ title: Bookshelf
 <h3>Currently reading:</h3>
 
 <ul>
-  <li><a href="https://amzn.to/2QouhIk">Superforecasting: The Art and Science of Prediction</a></li>
-  <li><a href="https://amzn.to/2wTh5SC">The Art of Worldly Wisdom</a></li>
-  <li><a href="https://amzn.to/2Nr1Eva">The Relationship Manager</a></li>
-  <li><a href="https://amzn.to/2NSaI9u">12 Rules for Life</a></li>
+{% for book in site.books %}
+  <li><a href="{{ book.url }}">{{ book.title }}</a> - {{ book.description }}</li>
+{% endfor %}
 </ul>
 
 <h3>Next in line:</h3>
 
 <ul>
+  <li><a href="https://amzn.to/2wTh5SC">The Art of Worldly Wisdom</a></li>
+  <li><a href="https://amzn.to/2Nr1Eva">The Relationship Manager</a></li>
+  <li><a href="https://amzn.to/2NSaI9u">12 Rules for Life</a></li>
   <li><a href="https://amzn.to/2oMTv6v">A Pocket Mirror for Heroes</a></li>
   <li><a href="https://amzn.to/2QgI2sx">Zero to One</a></li>
   <li><a href="https://www.principles.com/big-debt-crises/">A Template for Understanding Big Debt Crises</a></li>
   <li><a href="https://amzn.to/2O9yzS9">It Doesn’t Have to Be Crazy at Work</a></li>
-</ul>
-
-<h3>Notes:</h3>
-
-<ul>
-{% for book in site.books %}
-  <li><a href="{{ book.url }}">{{ book.title }}</a> - {{ book.description }}</li>
-{% endfor %}
 </ul>
 
 {% include footer.html %}

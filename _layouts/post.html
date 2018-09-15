@@ -4,7 +4,17 @@ layout: base
 
 <div class="row">
 	<h2>{{ page.title }}</h2>
-	<p>On {{ page.date | date: "%B %-d, %Y" }} in <a href="/">{{ page.category | split: '-' | join: ' ' }}</a></p>
+
+	{% capture words %}
+		{{ page.content | number_of_words | minus: 250 }}
+	{% endcapture %}
+	On {{ page.date | date: "%B %-d, %Y"  }} in
+	<a href="/">{{ page.category | split: '-' | join: ' ' }}</a> •
+	{% if words contains "-" %}
+		1 minute read
+	{% else %}
+		{{ words | plus: 250 | divided_by: 180 | append: " minutes read" }}
+	{% endif %}
 
   {% if page.toc %}
 		<h3> Table of Contents</h3>

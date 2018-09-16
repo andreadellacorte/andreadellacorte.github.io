@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Agile Coaching
-category: software-development
+title: Coaching
+category: agile
+toc: true
 ---
 
 ### Competencies

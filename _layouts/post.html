@@ -6,14 +6,14 @@ layout: base
 	<h2>{{ page.title }}</h2>
 
 	{% capture words %}
-		{{ page.content | number_of_words | minus: 250 }}
+		{{ page.content | number_of_words | minus: 220 }}
 	{% endcapture %}
 	On {{ page.date | date: "%B %-d, %Y"  }} in
 	<a href="/">{{ page.category | split: '-' | join: ' ' }}</a> •
 	{% if words contains "-" %}
 		1 minute read
 	{% else %}
-		{{ words | plus: 250 | divided_by: 180 | append: " minutes read" }}
+		{{ words | plus: 220 | divided_by: 220 | append: " minutes read" }}
 	{% endif %}
 
   {% if page.toc %}
@@ -22,6 +22,13 @@ layout: base
 	{% endif %}
 </div>
 <div class="row">{{content}}</div>
+
+<!--
+<div style="text-align:center">
+	<hr/>
+	Suggestions? Send over a PR request on <a href="{{ site.github }}{{page.path}}">Github</a>
+</div>
+-->
 
 {% include related.html %}
 

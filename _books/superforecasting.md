@@ -2,9 +2,11 @@
 layout: book
 title: Superforecasting
 description: The Art & Science of Prediction
+authors: Philip Tetlock and Dan Gardner
+year: 2015
+store: Amazon
+link: https://amzn.to/2QouhIk
 ---
-
-<blockquote>by Philip Tetlock and Dan Gardners</blockquote>, https://amzn.to/2QouhIk
 
 This book describes the practices and skills of Superforecasters, people who absorb knowledge from many sources, crunch it again and again and synthesize it all in one prediction: most of the time they'll be right.
 

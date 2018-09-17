@@ -1,9 +1,6 @@
 {% unless site.categories[page.category].size == 1 %}
 
-  {% assign words = page.category | split: "-" %}
-  {% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
-
-  <h2>Other {{ catTitle }} Pages</h2>
+  <h2>Other {% include pretty-category.html category=page.category %} Pages</h2>
   <ul>
     {% for post in site.categories[page.category] %}
       {% unless post.url == page.url %}

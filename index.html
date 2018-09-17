@@ -25,15 +25,8 @@ This is my bag of awesome: notes, tricks, systems and tools.
     {% for category in categories %}
       {% assign cat = category[0] %}
 
-      {% if cat == 'principles' %}
-        {% continue %}
-      {% endif %}
-
-      {% assign words = cat | split: "-" %}
-      {% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
-
       <tr>
-        <td><h3>{{ catTitle }}</h3></td>
+        <td><h3>{% include pretty-category.html category=cat %}</h3></td>
         <td>
           {% for post in site.categories[cat] %}
             {% assign folder = post.path | split: "/" | first %}

@@ -1,0 +1,4 @@
+{% assign cat = include.category %}
+{% assign words = cat | split: "-" %}
+{% capture catTitle %}{% for word in words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
+{{catTitle}}

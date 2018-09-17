@@ -357,7 +357,9 @@ hr {
 .remarkdown.table-marker table {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0.1em;
+  line-height: inherit;
 }
 
 .remarkdown.table-marker tr > * {

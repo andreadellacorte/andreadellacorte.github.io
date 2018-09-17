@@ -13,8 +13,8 @@ This is my bag of awesome: notes, tricks, systems and tools.
 
   <table style="width: 100%">
     <colgroup>
-      <col span="1" style="width: 30%;">
-      <col span="1" style="width: 70%;">
+      <col span="1" style="width: 28%;">
+      <col span="1" style="width: 72%;">
     </colgroup>
     <tr>
       <th scope="col">Category</th>
@@ -31,7 +31,7 @@ This is my bag of awesome: notes, tricks, systems and tools.
           {% for post in site.categories[cat] %}
             {% assign folder = post.path | split: "/" | first %}
             <h4>
-              <a href="{{ post.url }}">{% if folder == "_drafts" %}* {% endif %}{{ post.title }}</a></h4>
+              <a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a></h4>
             {% unless forloop.last %} • {% endunless %}
           {% endfor %}
         </td>

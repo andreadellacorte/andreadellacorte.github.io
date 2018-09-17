@@ -22,7 +22,7 @@ This is my bag of awesome: notes, tricks, systems and tools.
     </tr>
     {% assign categories = site.categories | sort %}
 
-    {% for category in categories | sort %}
+    {% for category in categories %}
       {% assign cat = category[0] %}
 
       {% if cat == 'principles' %}

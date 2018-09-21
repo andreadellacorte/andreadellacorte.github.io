@@ -1,0 +1,15 @@
+{
+  "short_name": "dellacorte",
+  "name": "Andrea Della Corte",
+  "icons": [
+    {
+      "src": "/img/andreadellacorte.png",
+      "type": "image/png",
+      "sizes": "212x216"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#477DB8"
+}

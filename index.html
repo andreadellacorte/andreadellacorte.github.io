@@ -28,7 +28,9 @@ This is my bag of awesome: notes, tricks, systems and tools.
       <tr>
         <td><h3>{% include pretty-category.html category=cat %}</h3></td>
         <td>
-          {% for post in site.categories[cat] %}
+          {% assign posts = site.categories[cat] | sort: 'title' %}
+
+          {% for post in posts %}
             {% assign folder = post.path | split: "/" | first %}
             <h4>
               <a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a></h4>

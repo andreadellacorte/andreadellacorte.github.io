@@ -3,7 +3,7 @@
   "name": "Andrea Della Corte",
   "icons": [
     {
-      "src": "/img/andreadellacorte.png",
+      "src": "static/imgs/andreadellacorte.png",
       "type": "image/png",
       "sizes": "212x216"
     }

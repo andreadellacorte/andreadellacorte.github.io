@@ -16,6 +16,8 @@ When I used to work in Amazon Video - Living Room, releasing would happen on a m
 
 In 2016, a continuous integration program was started with the goal of increasing the releasing cadence for the entire organisation.
 
+{% include want-more.html %}
+
 Overall, the main steps in the program were:
 1. Vision: We defined a high level goal for the program... it went something like this: "By T date, we will release our software X times every Y, with less than Z issues found during integration and less than N issues impacting customers";
 2. Agility: There was a lot of ambiguity at the beginning of this program: as we pushed the limits of our release system, we learned more and more about the problem areas that were hurting us. We navigated this uncertainty by defining a good set metrics (and alarms!) for our release pipeline and trying to release again and again on shorter and shorter cycles and tweaking, improving and removing unnecessary steps as we went through;

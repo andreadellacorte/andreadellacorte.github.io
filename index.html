@@ -32,8 +32,7 @@ This is my bag of awesome: notes, tricks, systems and tools.
 
           {% for post in posts %}
             {% assign folder = post.path | split: "/" | first %}
-            <h4>
-              <a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a></h4>
+            <h4><a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a></h4>
             {% unless forloop.last %} • {% endunless %}
           {% endfor %}
         </td>

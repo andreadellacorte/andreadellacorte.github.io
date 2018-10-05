@@ -9,7 +9,7 @@ layout: base
 		{{ page.content | number_of_words | minus: 220 }}
 	{% endcapture %}
 	On {{ page.date | date: "%B %-d, %Y"  }} in
-	<a href="/">{{ page.category | split: '-' | join: ' ' }}</a> •
+	<a href="/">{{ page.category | split: '-' | join: ' ' }}</a> • <i class="fa fa-clock-o" style="margin: 0 0.1rem 0 0.2rem; font-size: 11px;"></i>
 	{% if words contains "-" %}
 		1 minute read
 	{% else %}
@@ -29,6 +29,8 @@ layout: base
 	Suggestions? Send over a PR request on <a href="{{ site.github }}{{page.path}}">Github</a>
 </div>
 -->
+
+{% include share.html %}
 
 {% include related.html %}
 

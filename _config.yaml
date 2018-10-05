@@ -4,8 +4,8 @@ description: Agile coach & aspiring expert
 
 url: https://dellacorte.me/
 
-images: /static/imgs
-docs: /static/docs
+images: static/imgs
+docs: static/docs
 
 github: https://github.com/andreadellacorte/andreadellacorte.github.io/tree/master/
 

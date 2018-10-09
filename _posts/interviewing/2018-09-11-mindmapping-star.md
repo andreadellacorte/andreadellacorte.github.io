@@ -27,15 +27,15 @@ My solution to this problem is a mind-map (I recommend [XMind](https://www.xmind
 
 The "spine" of the mindmap looks a bit like this one:
 
-<img src="{{site.url}}{{site.images}}/interviewing/mindmap-spine.png">
+<img src="{{site.url}}/{{site.images}}/interviewing/mindmap-spine.png">
 
 Once I have this, I start going through my resume and past notes and populate the mind-map until it has the level of detail I want. For example, for challenges, I have something like this:
 
-<img src="{{site.url}}{{site.images}}/interviewing/mindmap-challenges.png">
+<img src="{{site.url}}/{{site.images}}/interviewing/mindmap-challenges.png">
 
 Mine looks something like this:
 
-<img src="{{site.url}}{{site.images}}/interviewing/mindmap-complete.png">
+<img src="{{site.url}}/{{site.images}}/interviewing/mindmap-complete.png">
 
 ### Step 2: Answering
 

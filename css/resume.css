@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?9yug7q');
-  src: url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
-  url('fonts/icomoon.ttf?9yug7q') format('truetype'),
-  url('fonts/icomoon.woff?9yug7q') format('woff'),
-  url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot?9yug7q');
+  src: url('../fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?9yug7q') format('truetype'),
+  url('../fonts/icomoon.woff?9yug7q') format('woff'),
+  url('../fonts/icomoon.svg?9yug7q#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,7 +38,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(fonts/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
@@ -54,7 +54,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(fonts/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  src: local('Lato Bold'), local('Lato-Bold'), url(../fonts/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -415,7 +415,7 @@
 @font-face {
   font-family: 'jst-elegant';
   src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
-  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("fonts/icomoon.ttf") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("../fonts/icomoon.ttf") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
   font-weight: normal;
   font-style: normal;
 }

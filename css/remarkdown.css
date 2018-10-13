@@ -531,7 +531,16 @@ img {
 .photo {
   width: auto;
 }
- 
+
+article .sharers { margin-left: -7rem; width: 2rem; background: #F02050; opacity: .6; position: absolute; cursor: hand; display: block; margin-top: 2rem; }
+article .sharers p { background: #f8f8f8; margin-bottom: 0; margin-top: 0; letter-spacing: 1.5px; font-size: 7px; font-weight: 600; text-transform: uppercase; text-align: center; padding-bottom: 2px;}
+article .sharers.fixed { position: fixed; z-index: 1; top: 250px; position: fixed; display: block !important; }
+article .sharers img.twitter { padding: 10%; border-bottom: 1px solid white;}
+article .sharers img.facebook { padding: 10%; }
+
+article .sharers.fixed a.button::before { content: "" }
+article .sharers.fixed a.button::after { content: "" }
+
 .remarkdown i.fa { font-size: 11px;  }
 
 #mc_embed_signup .button {

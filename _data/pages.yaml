@@ -1,22 +1,22 @@
 list:
 
-- title: principles
+- title: <i class="fa fa-compass"></i> principles
   url: /
 
-- title: bookshelf
+- title: <i class="fa fa-book"></i> bookshelf
   url: /books
 
-- title: about
+- title: <i class="fa fa-info"></i> about
   url: /about
 
-- title: resume
+- title: <i class="fa fa-id-card-o"></i> resume
   url: /resume
 
-- title: email
+- title: <i class="fa fa-envelope-o"></i> email
   url: mailto:andrea@dellacorte.me
 
-- title: subscribe
+- title: <i class="fa fa-check-circle-o"></i> subscribe
   url: /subscribe
 
-- title: rss
+- title: <i class="fa fa-rss"></i> rss
   url: /feed.xml

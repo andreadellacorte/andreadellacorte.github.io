@@ -108,7 +108,7 @@
 hr {
   height: 1.5em;
   line-height: 1.5em;
-  margin: 1.5em 0 1.5em;
+  margin: 1em 0 1.5em;
   border: none;
   color: inherit;
 }
@@ -542,3 +542,13 @@ article .sharers.fixed a.button::before { content: "" }
 article .sharers.fixed a.button::after { content: "" }
 
 .remarkdown i.fa { font-size: 11px;  }
+
+#mc_embed_signup .button {
+  font-size: 13px;
+  font-family: monospace;
+  margin: 0 0px 10px 0;
+}
+
+#mc_embed_signup form {
+  padding: 0px 0 0px 0;
+}

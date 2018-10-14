@@ -20,6 +20,8 @@ author: Andrea Della Corte
 collections:
   books:
     output: true
+  presentations:
+    output: true
 
 defaults:
   - scope:

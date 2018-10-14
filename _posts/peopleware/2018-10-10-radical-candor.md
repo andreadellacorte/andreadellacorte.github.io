@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Radical Candor
-category: relationships
+category: peopleware
 toc: true
 ---
 
@@ -79,6 +79,6 @@ To understand your employees’ dreams and identify those important motivators, 
 - The second is the dream job conversation, where they describe their biggest career desire.
 - The third is the 18-month plan conversation, where they look into the immediate future, and you identify everything that can be done to keep them on the right track.
 
-### Links
+### Resources
 
 - <a href="https://medium.com/@franticrock/radical-candor-kim-scott-book-summaries-ep38-5558e86cfe13">Radical Candor (Kim Scott) — Book Summary</a>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Psychological Safety
-category: relationships
+category: peopleware
 toc: true
 ---
 

@@ -1,25 +1,33 @@
 <head>
   {% include header_analytics.html %}
+  <title>{{ page.title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
   <meta name="author" content="Andrea Della Corte">
-  <meta name="description" content="Agile coach & aspiring expert">
   <meta name="theme-color" content="#477DB8">
+  <meta name="x-build-time" content="{{ site.time | date: "%Y-%m-%d %H:%M" }}">
+
+  <!-- Open graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Andrea Della Corte">
-  <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:description" content="Agile coach & aspiring expert">
+  <meta property="og:url" content="{{site.url}}/{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}/{{ site.images }}/andreadellacorte.jpg">
-  <meta name="x-build-time" content="{{ site.time | date: "%-d %B %Y" }}">
-  <meta name="twitter:card" content="summary">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@adielleci">
   <meta name="twitter:creator" content="@adielleci">
 
-  {% if page.category %}
-    <title>{{ page.title }}</title>
-  {% else %}
-    <title>{{ page.title }}</title>
-  {% endif %}
+  <!-- Common -->
+  <meta property="og:title" content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+
+  <meta name="description" content="Agile coach & aspiring expert">
+  <meta property="og:description" content="Agile coach & aspiring expert">
+  <meta property="twitter:description" content="Agile coach & aspiring expert">
+
+  <meta property="og:image" content="{{ site.url }}/{{ site.images }}/andreadellacorte.jpg">
+  <meta property="twitter:image" content="{{ site.url }}/{{ site.images }}/andreadellacorte.jpg">
+
   <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/fork-awesome.min.css">
   <link href="/css/remarkdown.css" rel="stylesheet">

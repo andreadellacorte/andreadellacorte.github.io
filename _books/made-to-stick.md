@@ -37,12 +37,11 @@ link: https://amzn.to/2CkijLh
 
 ### Unexpected
 
-- Mental schemas are like guessing machines, they help us predict what will happen and make good decisions.
-- When they fail and the unexplainable happens we are surprised: the event jolts our attention, we pause and reflect, so that we can repair our machines.
+- Mental schemas help us predict what will happen and make good decisions. When they fail and the unexplainable happens we are surprised: the event jolts our attention, we pause and reflect, so that we can repair our machines.
 - Stickier ideas seize this power by breaking people's mental schemas and then helping them repair them by providing insights related to their core message. The step by step process is:
   1. Identify the central messages;
   2. Figure out what's counter-intuitive about the message;
   3. Communicate the message in a way that breaks the audience's guessing machine along the counterintuitive dimension.
 - Sticky ideas help us break the complacency of common sense and rewrite existing schemas in the mind of our audience. To make this work we need to know how people's schema are defective, swift the rug from underneath them with surprise, and then provide them powerful insights to help make their mental models better.
-- Curiosity happens when we feel a gap in our knowledge; to sustain attention, we must feed people's curiosity with a steady stream of open questions: the desire to fill this gap in our knowledge will keep them interested.
-- To convince people they need our message, we should henceforth first point out a specific piece of knwoledge they're missing.
+- Curiosity happens when we feel a gap in our knowledge; to sustain attention, we must feed people's curiosity with a steady stream of open questions: the desire to fill this gap in our knowledge will keep them interested. We need to shift our thinking from "What information do I need to convey?" to "What questions do I want my audience to ask?".
+- We should hence provide our audience with context, highlighting something they already know, and then point out gaps in their knowledge to convince them they need our message.

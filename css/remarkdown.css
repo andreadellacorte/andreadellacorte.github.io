@@ -370,6 +370,7 @@ hr {
   vertical-align: top;
   font-weight: normal;
   border: none;
+  padding-bottom: 0.25em;
 }
 
 .remarkdown.table-marker tr > * + * {
@@ -531,7 +532,7 @@ img {
 .photo {
   width: auto;
 }
- 
+
 .remarkdown i.fa { font-size: 11px;  }
 
 #mc_embed_signup .button {

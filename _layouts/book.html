@@ -10,4 +10,14 @@ layout: base
 </div>
 <div class="row">{{content}}</div>
 
+{% include related.html %}
+
+{% include subscribe-footer.html %}
+
+{% include social.html %}
+
+{% if page.comments %}
+	{% include comments.html %}
+{% endif %}
+
 {% include footer.html %}

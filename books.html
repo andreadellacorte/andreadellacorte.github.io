@@ -8,13 +8,23 @@ title: Bookshelf
 <h3>Currently reading:</h3>
 
 <ul>
-{% for book in site.books %}
-  {% if book.finished %} {% continue %} {% endif %}
-  <li><a href="{{ book.url }}">{{ book.title }}</a> - {{ book.description }}</li>
-{% endfor %}
+  {% for book in site.books %}
+    {% if book.finished %} {% continue %} {% endif %}
+    <li><a href="{{ book.url }}">{{ book.title }}</a> - {{ book.description }}</li>
+  {% endfor %}
+
+  {% for post in site.categories["currently-reading"] %}
+    {% assign folder = post.path | split: "/" | first %}
+    <li><a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a> - {{ post.description }}</li>
+  {% endfor %}
+
+  {% for post in site.categories["books"] %}
+    {% assign folder = post.path | split: "/" | first %}
+    <li><a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a> - {{ post.description }}</li>
+  {% endfor %}
 </ul>
 
-<h3>Summaries:</h3>
+<h3>Completed summaries:</h3>
 
 <ul>
 {% for book in site.books %}

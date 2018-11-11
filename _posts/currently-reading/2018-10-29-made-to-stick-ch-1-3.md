@@ -1,20 +1,27 @@
 ---
 layout: book
+category: currently-reading
 finished: false
-title: Made to Stick
+title: Made to Stick, ch. 1 - 3
 description: Why some ideas take hold and others come unstuck
 authors: Chip & Dan Heath
-year: 2008
+year: Paperback, 2008
 store: Amazon
 link: https://amzn.to/2CkijLh
 ---
 
 <img src="{{site.url}}/{{site.images}}/books/made-to-stick.jpg">
 
-### Introduction
+### About the Book
 
-- Many of us struggle with how to communicate ideas effectively, how to get our ideas to make a difference.
-- This book helps you make your ideas stick. By "stick" we mean that your ideas are understood and remembered, and have a lasting impact - they change your audience's opinions or behavior.
+Many of us struggle with how to communicate ideas effectively so that they make a difference.
+
+This book tells you how to make our ideas stick, so that they are understood and have a lasting impact, changing the audience’s opinions or behaviour.
+
+The next two chapters are <a href="{{site.url}}/currently-reading/made-to-stick-ch-4-5/">here</a>.
+
+### Chapter 1 - Introduction
+
 - This book's approach is different from the traditional methods, which focus on delivery, structure and repetition of the key message: this book focuses on the traits that make ideas sticky.
 - The Curse of Knowledge it's what makes sharing our ideas so hard: once we know something, it's hard to identify with people who don't. Due to this, even the most important, revolutionary and brilliant ideas could seem impossible to communicate due to this unbalance, which makes it impossible to reach our audience.
 - To beat the Curse of Knowledge, we can apply the following steps:
@@ -27,7 +34,7 @@ link: https://amzn.to/2CkijLh
     - Emotions: We must make people care by making them feel something by harnessing the right emotion.
     - Stories: We must tell stories to get people to act on our ideas, preparing them to act quickly and effectively.
 
-### Simplicity
+### Chapter 2 - Simplicity
 
 - Profound and compact ideas pack a lot of meaning into a small message. To do this we can tap into the existing memory schemas of our audience.
 - Schemas are collections of generic properties of a concept or category. They consist of a lot of prerecorded information in our memories. By calling up schemas in our messages we can communicate concepts much faster than if we mechanically listed all the attributes of our ideas, improving on both their comprehension and the ability to recall them.
@@ -35,7 +42,7 @@ link: https://amzn.to/2CkijLh
 - The use of "schemas" and analogies can seem a slower path to "real truth" (i.e. communicating our message in its completeness and with perfect accuracy), but they help us communicate our ideas in a useful way, avoiding the Curse of Knowledge.
 - Good analogies are also "generative": they are platforms for novel thinking that generate "new perceptions, explanations, and inventions".
 
-### Unexpected
+### Chapter 3 - Unexpected
 
 - Mental schemas help us predict what will happen and make good decisions. When they fail and the unexplainable happens we are surprised: the event jolts our attention, we pause and reflect, so that we can repair our machines.
 - Stickier ideas seize this power by breaking people's mental schemas and then helping them repair them by providing insights related to their core message. The step by step process is:

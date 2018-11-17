@@ -9,8 +9,14 @@
 		</main>
 	</body>
 	<script>
-		$(document).ready(function() {
-			$('#dataTables').DataTable();
-		} );
+		$(document).ready( function () {
+	  	$('#dataTables').DataTable({
+		    "columnDefs": [
+		        {"className": "dt-center", "targets": "_all"}
+		      ],
+				"iDisplayLength": 50,
+				"order": [[ 2, "desc" ]]
+			  });
+			} );
 	</script>
 </html>

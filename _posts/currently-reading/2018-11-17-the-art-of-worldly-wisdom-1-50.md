@@ -12,17 +12,17 @@ link: https://amzn.to/2wTh5SC
 
 ### About the book
 
-Baltasar Gracián Y Morales (1601-1658) was born in Calatayud, Aragon, Spain.
+Baltasar Gracián Y Morales (1601-1658) was born in Calatayud, Aragon, Spain. He desired to instruct princes and, consequently, his works display a certain deviousness and preoccupation with the exercise of power.
 
-Gracián wrote with a desire to instruct princes and, consequently, his works display a certain deviousness and preoccupation with the exercise of power: 300 aphorisms were extracted and published as "El Oráculo manual", or "The Art of Worldly Wisdom".
-
-"The Art of Worldly Wisdom" is a manual for becoming Wordly prudent (wise), 300 short maxims without chapters in between, perfect for skimming and reading a few in moments of relaxation.
+Out of his works, 300 aphorisms were extracted and published as "The Art of Worldly Wisdom", a manual for becoming wise "in the ways of the world".
 
 ### About this summary
 
-As there are no chapters or index, using the book as a reference in certain moments can be hard: you'll have to open the book and keep skimming until you find what you need.
+The book has a curious format: the maxims are numbered but have no chapters or organisation by topic, and, while this format makes the manual perfect for reading a few maxims at a time, it also makes the book challenging to use as a reference.
 
-To fix this I've decided to categorise all the 300 maxims in a series of 6 posts, 50 maxims at the time.
+Let's say I want to reflect on my temperance, how do I find all the related maxims?
+
+To help exactly with questions like this I am sorting the maxims by their applicability and related graces, 50 maxims at the time.
 
 This post covers the first 50 maxims.
 
@@ -32,14 +32,13 @@ You can read the first 50 maxims here: [1-25](http://community.fortunecity.ws/ro
 
 ### Categorisation of the Maxims
 
-Worldly wisdom is not exactly easy to define, so picking the categories was the hardest. After much tribulation, I've settled on the below categories:
+The first two categories are quite easy:
 
 - Number and Title: The position and title given to the maxims in the book;
-- Frequency of Reference: namely, how often I use these maxims:
-  - Often;
-  - Occasionally;
-  - Barely;
-- Domains and Graces, the first principles of worldly wisdom (as identified by me):
+- Frequency of Reference: how often I use these maxims;
+
+As worldly wisdom is not exactly easy to define, picking the categories was the hardest. In the end, I settled on the below Domains and Graces, the first principles of worldly wisdom:
+
   - Personal Graces:
     - Courage: fortitude and the ability to confront fear and uncertainty;
     - Industry: being always employ'd in something useful and cutting off all unnecessary actions;
@@ -53,8 +52,6 @@ Worldly wisdom is not exactly easy to define, so picking the categories was the 
     - Appearances: to have worth, and to know how to show it, is to be worth double;
     - Friends: befriending intellectuals, cultivating friendships with teachers;
     - Relations: influencing, competing, having manners and etiquette.
-
-### Maxims 1 to 50
 
 <div class="remarkdown table-marker" markdown="block">
 

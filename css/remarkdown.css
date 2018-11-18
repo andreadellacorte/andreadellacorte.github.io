@@ -360,6 +360,7 @@ hr {
   border-collapse: separate;
   border-spacing: 0.1em;
   line-height: inherit;
+  border-bottom: none;
 }
 
 .remarkdown.table-marker tr > * {

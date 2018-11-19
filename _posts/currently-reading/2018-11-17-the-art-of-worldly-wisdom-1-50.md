@@ -12,19 +12,17 @@ link: https://amzn.to/2wTh5SC
 
 ### About the book
 
-Baltasar Gracián Y Morales (1601-1658) was born in Calatayud, Aragon, Spain. He desired to instruct princes and, consequently, his works display a certain deviousness and preoccupation with the exercise of power.
+Baltasar Gracián Y Morales (1601-1658) was born in Calatayud, Aragon, Spain. His works aimed at instructing princes and, consequently, display a certain deviousness and preoccupation with the exercise of power.
 
-Out of his works, 300 aphorisms were extracted and published as "The Art of Worldly Wisdom", a manual for becoming wise "in the ways of the world".
+300 aphorisms were extracted from his works and published as "The Art of Worldly Wisdom", a manual for becoming wise "in the ways of the world".
 
 ### About this summary
 
-The book has a curious format: the maxims are numbered but have no chapters or organisation by topic, and, while this format makes the manual perfect for reading a few maxims at a time, it also makes the book challenging to use as a reference.
+The book has a curious format, the maxims are numbered and have a short title, but that's about it: there are no chapters and no organisation by topic.
 
-Let's say I want to reflect on my temperance, how do I find all the related maxims?
+In this format the manual is perfect for reading a few maxims at a time, but it also makes the book challenging to use as a reference. Let's say I want to reflect on a particular virtue, how do I find all the related maxims?
 
-To help exactly with questions like this I am sorting the maxims by their applicability and related graces, 50 maxims at the time.
-
-This post covers the first 50 maxims.
+To help exactly with this kind of questions I am sorting the maxims into the best categories I could think of! This post covers the first 50 maxims.
 
 ### Reading the Maxims
 

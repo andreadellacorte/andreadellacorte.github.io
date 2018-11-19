@@ -26,34 +26,34 @@ To help exactly with this kind of questions I am sorting the maxims into the bes
 
 ### Reading the Maxims
 
-You can read the first 50 maxims here: [1-25](http://community.fortunecity.ws/roswell/vortex/401/library/aoww/aoww01.htm){:target="\_blank"}, [26-50](http://community.fortunecity.ws/roswell/vortex/401/library/aoww/aoww02.htm){:target="\_blank"}.
+The book is widely available online in many translations, but my favourite is the one from 1992 by Christopher Maurer, which you can find here: [maxims 1-25](http://community.fortunecity.ws/roswell/vortex/401/library/aoww/aoww01.htm){:target="\_blank"}, [maxims 26-50](http://community.fortunecity.ws/roswell/vortex/401/library/aoww/aoww02.htm){:target="\_blank"}.
 
 ### Categorisation of the Maxims
 
 The first two categories are quite easy:
 
 - Number and Title: The position and title given to the maxims in the book;
-- Frequency of Reference: how often I use these maxims;
+- Frequency of Reference: how often I use these maxims, if you aren't sure about where to start, start reading the maxims from the "Often" category;
 
-As worldly wisdom is not exactly easy to define, picking the categories was the hardest. In the end, I settled on the below Domains and Graces, the first principles of worldly wisdom:
+Picking the component virtues for worldly wisdom was quite challenging. In the end I settled on the two Domains, Personal and Social, and on a number of Graces for each domain, as follows:
 
-  - Personal Graces:
-    - Courage: fortitude and the ability to confront fear and uncertainty;
-    - Industry: being always employ'd in something useful and cutting off all unnecessary actions;
-    - Justice: wrong none by doing injuries, or omitting the benefits that are your duty;
-    - Knowledge: being well informed with tasteful learning and witticisms;
-    - Prudence: discerning the appropriate course of action for a given situation, at the appropriate time;
-    - Resolution: resolving to perform what you ought, performing without fail what is resolved;
-    - Temperance: the practice of self-control, abstention, discretion and moderation;
-    - Tranquillity: living fully, being present and undisturbed by trifles;
-  - Social Graces:
-    - Appearances: to have worth, and to know how to show it, is to be worth double;
-    - Friends: befriending intellectuals, cultivating friendships with teachers;
-    - Relations: influencing, competing, having manners and etiquette.
+- Personal Graces: how to be a worldly wise person:
+  - Courage: fortitude and the ability to confront fear and uncertainty;
+  - Industry: being always employ'd in something useful and cutting off all unnecessary actions;
+  - Justice: wrong none by doing injuries, or omitting the benefits that are your duty;
+  - Knowledge: being well informed with tasteful learning and witticisms;
+  - Prudence: discerning the appropriate course of action for a given situation, at the appropriate time;
+  - Resolution: resolving to perform what you ought, performing without fail what is resolved;
+  - Temperance: the practice of self-control, abstention, discretion and moderation;
+  - Tranquillity: living fully, being present and undisturbed by trifles;
+- Social Graces: how to act like a worldly wise person in the presence of others:
+  - Appearances: to have worth, and to know how to show it, is to be worth double;
+  - Friends: befriending intellectuals, cultivating friendships with teachers;
+  - Relations: influencing, competing, having manners and etiquette.
 
 Below are the first 50 maxims!
 
-PS: The table is interactive, you can click on the columns to sort the columns content however you prefer :)
+PS: The table is interactive, you can click on the columns to sort the content :)
 
 <div class="remarkdown table-marker" markdown="block">
 

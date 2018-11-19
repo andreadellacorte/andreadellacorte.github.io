@@ -51,6 +51,10 @@ As worldly wisdom is not exactly easy to define, picking the categories was the 
     - Friends: befriending intellectuals, cultivating friendships with teachers;
     - Relations: influencing, competing, having manners and etiquette.
 
+Below are the first 50 maxims!
+
+PS: The table is interactive, you can click on the columns to sort the columns content however you prefer :)
+
 <div class="remarkdown table-marker" markdown="block">
 
   {:#dataTables .hover .order-column}

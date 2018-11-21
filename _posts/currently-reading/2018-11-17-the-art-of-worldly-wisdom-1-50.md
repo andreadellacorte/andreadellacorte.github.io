@@ -18,11 +18,11 @@ Baltasar Gracián Y Morales (1601-1658) was born in Calatayud, Aragon, Spain. Hi
 
 ### About this summary
 
-The book has a curious format, the maxims are numbered and have a short title, but that's about it: there are no chapters and no organisation by topic.
+The book has a curious format: the maxims are numbered and have a short title, but that’s about it; there are no chapters and no organisation by topic.
 
-In this format the manual is perfect for reading a few maxims at a time, but it also makes the book challenging to use as a reference. Let's say I want to reflect on a particular virtue, how do I find all the related maxims?
+While this format makes the manual perfect for reading a few maxims at a time, it also makes it challenging to use it as a reference. Let’s say I want to reflect on a particular virtue, how do I find all the related maxims?
 
-To help exactly with this kind of questions I am sorting the maxims into the best categories I could think of! This post covers the first 50 maxims.
+To help exactly with this kind of problem, I am sorting the maxims into the best categories I could think of! This post covers the first 50 maxims.
 
 ### Reading the Maxims
 

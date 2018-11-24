@@ -42,10 +42,10 @@ Picking the component virtues for worldly wisdom was quite challenging. In the e
   - Industry: being always employ'd in something useful and cutting off all unnecessary actions;
   - Justice: wrong none by doing injuries, or omitting the benefits that are your duty;
   - Knowledge: being well informed with tasteful learning and witticisms;
-  - Prudence: discerning the appropriate course of action for a given situation, at the appropriate time;
+  - Judgement: discerning the appropriate course of action for a given situation, at the appropriate time;
   - Resolution: resolving to perform what you ought, performing without fail what is resolved;
   - Temperance: the practice of self-control, abstention, discretion and moderation;
-  - Tranquillity: living fully, being present and undisturbed by trifles;
+  - Tranquillity: living fully, being present and undisturbed by trifles.
 - Social Graces: how to act like a worldly wise person in the presence of others:
   - Appearances: to have worth, and to know how to show it, is to be worth double;
   - Friends: befriending intellectuals, cultivating friendships with teachers;
@@ -79,7 +79,7 @@ PS: The table is interactive, you can click on the columns to sort the content :
   | 017	| Keep changing your style of doing things | Barely | Social | Relations |
   | 018	| Application and capacity | Barely | Personal | Resolution |
   | 019 | When you start something, don't raise other people's expectations | Occasionally | Social | Relations |
-  | 020	| A person born in the right age | Barely | Personal | Prudence |
+  | 020	| A person born in the right age | Barely | Personal | Judgement |
   | 021	| The art of success | Barely | Personal | Courage |
   | 022	| Be well informed | Barely | Personal | Knowledge |
   | 023 | Don't have a single imperfection | Occasionally | Personal | Temperance |
@@ -90,15 +90,15 @@ PS: The table is interactive, you can click on the columns to sort the content :
   | 028	| Be vulgar in nothing | Occasionally | Personal | Temperance |
   | 029	| Be righteous and firm | Occasionally | Personal | Justice |
   | 030	| Don't occupy yourself with disreputable things | Barely | Personal | Temperance |
-  | 031	| Know the fortunate in order to choose them, and the unfortunate in order to flee from them | Barely | Personal | Prudence |
+  | 031	| Know the fortunate in order to choose them, and the unfortunate in order to flee from them | Barely | Personal | Judgement |
   | 032	| Be known for pleasing others | Often | Social | Relations |
-  | 033	| Know when to put something aside | Barely | Personal | Prudence |
+  | 033	| Know when to put something aside | Barely | Personal | Judgement |
   | 034	| Know your best quality | Barely | Personal | Knowledge |
-  | 035	| Weigh matters carefully | Often | Personal | Prudence |
-  | 036	| Take the measure of your luck | Barely | Personal | Prudence |
+  | 035	| Weigh matters carefully | Often | Personal | Judgement |
+  | 036	| Take the measure of your luck | Barely | Personal | Judgement |
   | 037	| Know what insinuation is, and how to use it | Barely | Social | Relations |
-  | 038	| Quit while you're ahead | Barely | Personal | Prudence |
-  | 039	| Know when things are at their acme, when they are ripe, and know how to take advantage of them | Occasionally | Personal | Prudence |
+  | 038	| Quit while you're ahead | Barely | Personal | Judgement |
+  | 039	| Know when things are at their acme, when they are ripe, and know how to take advantage of them | Occasionally | Personal | Judgement |
   | 040	| Grace in dealing with others | Often | Social | Relations |
   | 041	| Never exaggerate | Occasionally | Personal | Temperance |
   | 042	| Born to rule | Barely | Social | Relations |
@@ -106,9 +106,9 @@ PS: The table is interactive, you can click on the columns to sort the content :
   | 044	| Sympathy with the great | Often | Social | Friends |
   | 045	| Use, but don't abuse, hidden intentions, and above all, don't reveal them | Barely | Social | Relations |
   | 046	| Temper your antipathy | Occasionally | Social | Relations |
-  | 047	| Avoid committing yourself to risky enterprises | Barely | Personal | Prudence |
+  | 047	| Avoid committing yourself to risky enterprises | Barely | Personal | Judgement |
   | 048	| You are as much a real person as you are deep | Barely | Personal | Knowledge |
-  | 049	| A person of sharp observation and sound judgment | Barely | Personal | Prudence |
+  | 049	| A person of sharp observation and sound judgment | Barely | Personal | Judgement |
   | 050	| Never lose your self-respect | Occasionally | Personal | Temperance |
 
 </div>

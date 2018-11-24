@@ -27,8 +27,6 @@ Radical Candor doesn’t always come easily. We’ve grown up being told that if
 
 As leaders, however, the truth is that it’s not only our job to do this, it’s our moral obligation. This guide looks at making it easier.
 
-{% include want-more.html %}
-
 ### Getting it
 
 - Embrace the discomfort: Your teammate might not necessarily want to give you feedback when you ask for it, but embrace the discomfort and leave the opportunity open. One way is to ask for feedback, then shut your mouth and count to 6. You will get something in return for the silence.

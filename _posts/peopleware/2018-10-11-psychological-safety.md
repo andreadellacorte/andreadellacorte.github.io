@@ -23,8 +23,6 @@ Google's Project Aristotle is a landmark study of teamwork and team performance.
 
 The project identified that psychological safety was the most important.
 
-{% include want-more.html %}
-
 ### Learning Zone
 
 Organizations have to focus on performance. The challenge is to keep learning even while performing at peak levels. A useful model to understand what really happens in organizations is a 2 x 2 matrix. On one axis, we have performance pressure (accountability for results). On the other axis, we have psychological safety.

@@ -3,27 +3,27 @@
   <title>{{ page.title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-  <meta name="author" content="Andrea Della Corte">
+  <meta name="author" content="{{ site.author }}">
   <meta name="theme-color" content="#477DB8">
   <meta name="x-build-time" content="{{ site.time | date: "%Y-%m-%d %H:%M" }}">
 
   <!-- Open graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{site.url}}/{{ page.url }}">
+  <meta property="og:url" content="{{ site.url }}/{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}/{{ site.images }}/andreadellacorte.jpg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@adielleci">
-  <meta name="twitter:creator" content="@adielleci">
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
 
   <!-- Common -->
   <meta property="og:title" content="{{ page.title }}">
   <meta name="twitter:title" content="{{ page.title }}">
 
-  <meta name="description" content="Agile coach & aspiring expert">
-  <meta property="og:description" content="Agile coach & aspiring expert">
-  <meta property="twitter:description" content="Agile coach & aspiring expert">
+  <meta name="description" content="{{site.description }}">
+  <meta property="og:description" content="{{site.description }}">
+  <meta property="twitter:description" content="{{site.description }}">
 
   <meta property="og:image" content="{{ site.url }}/{{ site.images }}/andreadellacorte.jpg">
   <meta property="twitter:image" content="{{ site.url }}/{{ site.images }}/andreadellacorte.jpg">
@@ -34,7 +34,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/ju/jq-3.3.1/dt-1.10.18/af-2.3.2/b-1.5.4/fc-3.2.5/fh-3.1.4/r-2.2.2/sl-1.2.6/datatables.min.css"/>
 
-<script type="text/javascript" src="https://cdn.datatables.net/v/ju/jq-3.3.1/dt-1.10.18/af-2.3.2/b-1.5.4/fc-3.2.5/fh-3.1.4/r-2.2.2/sl-1.2.6/datatables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/ju/jq-3.3.1/dt-1.10.18/af-2.3.2/b-1.5.4/fc-3.2.5/fh-3.1.4/r-2.2.2/sl-1.2.6/datatables.min.js"></script>
 
   <link href="/css/remarkdown.css" rel="stylesheet">
   <link rel="shortcut icon" href="{{ site.url }}/{{ site.images }}/favicon.ico" />

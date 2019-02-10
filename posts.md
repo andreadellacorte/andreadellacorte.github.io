@@ -3,7 +3,9 @@ layout: base
 title: Timeline
 ---
 
-<h2>{{ page.title }}</h2>
+{% include tagcloud.html %}
+
+## Posts
 
 {% for post in site.posts %}
   <div>
@@ -21,7 +23,3 @@ title: Timeline
 	  <p>{{ post.content | strip_html | truncatewords: 50 | remove: '<p>' | remove: '</p>' }}</p>
   </div>
 {% endfor %}
-
-{% include tagcloud.html %}
-
-{% include footer.html %}

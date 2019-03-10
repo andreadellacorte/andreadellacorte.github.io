@@ -8,6 +8,7 @@ authors: Chip & Dan Heath
 year: Paperback, 2008
 store: Amazon
 link: https://amzn.to/2CkijLh
+toc: true
 ---
 
 <img src="{{site.url}}/{{site.images}}/books/made-to-stick.jpg">

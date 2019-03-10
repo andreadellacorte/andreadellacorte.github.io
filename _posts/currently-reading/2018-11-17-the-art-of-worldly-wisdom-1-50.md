@@ -8,6 +8,7 @@ authors: Balthasar Gracián
 year: 1647; translation by Christopher Maurer, 1992
 store: Amazon
 link: https://amzn.to/2wTh5SC
+toc: true
 ---
 
 ### About the book

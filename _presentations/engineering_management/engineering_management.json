@@ -1,0 +1,51 @@
+{
+    "name": "Engineering Management",
+    "children": [{
+        "name": "Basic",
+        "children": [
+          {
+            "name": "Hiring",
+            "children": []
+          },
+          {
+            "name": "Leadership",
+            "children": []
+          },
+          {
+            "name": "Budgeting",
+            "children": []
+          },
+          {
+            "name": "Process Improvement",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Intermediate",
+        "children": [
+          {
+            "name": "Strategy",
+            "children": []
+          },
+          {
+            "name": "Operational Metrics",
+            "children": []
+          },
+          {
+            "name": "Budgeting",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Advanced",
+        "children": [
+          {
+            "name": "Organisational Design",
+            "children": []
+          }
+        ]
+      }
+    ]
+}

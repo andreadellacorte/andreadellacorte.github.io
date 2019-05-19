@@ -7,6 +7,7 @@ authors: Philip Tetlock and Dan Gardner
 year: 2015
 store: Amazon
 link: https://amzn.to/2QouhIk
+toc: true
 ---
 
 This book describes the practices and skills of Superforecasters, people who absorb knowledge from many sources, crunch it again and again and synthesize it all in one prediction: most of the time they'll be right.

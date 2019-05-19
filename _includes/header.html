@@ -15,6 +15,15 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{{ site.twitter_username }}">
 <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+<meta name="twitter:label1" value="Reading time">
+{% capture words %}
+  {{ page.content | number_of_words | minus: 220 }}
+{% endcapture %}
+{% if words contains "-" %}
+<meta name="twitter:data1" value="1 minute read">
+{% else %}
+<meta name="twitter:data1" value="{{ words | plus: 220 | divided_by: 220 | append: " minutes read" }}">
+{% endif %}
 
 <!-- Common -->
 <meta property="og:title" content="{{ page.title }}">

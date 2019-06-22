@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Threat Modeling
-category: software-development
+category: information-security
 toc: true
 ---
 

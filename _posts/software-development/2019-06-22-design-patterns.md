@@ -52,3 +52,7 @@ Commands are the object-oriented equivalent of call-backs and encapsulate the ca
 ## Factory
 
 The Factory method pattern (aka Factory pattern) is a creational pattern. The creational patterns abstract the object instantiation process by hiding how the objects are created and make the system independent of the object creation process. An Abstract factory pattern is one level of abstraction higher than a factory method pattern, which means it returns the factory classes.
+
+## Class Diagrams
+
+<img src="{{site.url}}/{{site.images}}/software-development/design-patterns.jpg">

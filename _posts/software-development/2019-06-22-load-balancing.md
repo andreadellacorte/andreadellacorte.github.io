@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Load Balancers
+title: Load Balancing
 category: software-development
 toc: true
 ---

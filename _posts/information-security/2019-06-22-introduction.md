@@ -32,6 +32,43 @@ The CIA triad is a very important trio in information security. The “CIA” st
 
 It’s a good practice to think of information security attacks and defenses in terms of the CIA triad.
 
+### Mechanisms
+
+### MECHANISMS
+
+- Authentication - Authentication is the act of confirming that someone (or something) is who they say they claim to be.
+  -  Correctly enforce basic password security.
+  - Guard against brute force attacks on your login functionality, be sure to implement some sort of account lockout after a set number of failed attempts.
+  - Third, pay attention to how the forgotten password functionality is implemented.
+  - When web applications need to pass sensitive data, always use and explicitly enforce the POST method.
+- Authorization - Authorization is the act of verifying that a previously authenticated user is allowed to perform a given operation or act on a given resource, and is often known as access control. There are actually two things going on here.
+  - Verify that the user is allowed to access the
+requested page or function.
+  - Verify that the user can operate within the given context.
+  - Any authorization check is done on the server as client side security can often be bypassed.
+- Data Validation
+  - Validate data before input
+  - Validate data before output
+  - Validate data before use in `eval`
+  - Validate data length before writing to parsers
+- Session Management
+  - Enforce a reasonable session lifespan so that if a session is compromised there is at least a limit to how long it can be exploited
+  - Leverage existing session management solutions and avoid rolling your own.
+  - Avoid session fixation attacks by forcing a change of session ID after a successful login.
+- Error Handling
+  - Don’t disclose information that should remain private
+  - Remember to clean up completely in an error condition
+- Logging
+ - Avoid logging sensitive data
+ - Beware of logging tainted data to the logs
+ - Beware of logging unnecessary data
+ - Beware of data aimed at log spoofing
+- Encryption
+ - Don’t roll your own crypto
+ - If storing password, hash with a salt value
+ - If you’re using authentication, encrypt in transmission
+ - Properly seed random number generators
+
 ### Glossary
 
 #### Vulnerability

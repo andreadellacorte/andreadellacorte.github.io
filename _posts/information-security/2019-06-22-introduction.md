@@ -34,7 +34,7 @@ It’s a good practice to think of information security attacks and defenses in 
 
 ### Mechanisms
 
-### MECHANISMS
+<img src="{{site.url}}/{{site.images}}/information-security/infosec-mechanisms.png">
 
 - Authentication - Authentication is the act of confirming that someone (or something) is who they say they claim to be.
   -  Correctly enforce basic password security.

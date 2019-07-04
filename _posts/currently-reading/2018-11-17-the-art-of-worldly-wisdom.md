@@ -2,7 +2,7 @@
 layout: book
 finished: false
 category: currently-reading
-title: The Art of Worldly Wisdom, maxims 1 to 50
+title: The Art of Worldly Wisdom
 description: A Pocket Oracle
 authors: Balthasar Gracián
 year: 1647; translation by Christopher Maurer, 1992
@@ -23,11 +23,11 @@ The book has a curious format: the maxims are numbered and have a short title, 
 
 While this format makes the manual perfect for reading a few maxims at a time, it also makes it challenging to use it as a reference. Let’s say I want to reflect on a particular virtue, how do I find all the related maxims?
 
-To help exactly with this kind of problem, I am sorting the maxims into the best categories I could think of! This post covers the first 50 maxims.
+To help exactly with this kind of problem, I am sorting the maxims into the best categories I could think of!
 
 ### Reading the Maxims
 
-The book is widely available online in many translations, but my favourite is the one from 1992 by Christopher Maurer, which you can find here: [maxims 1-25](http://community.fortunecity.ws/roswell/vortex/401/library/aoww/aoww01.htm){:target="\_blank"}, [maxims 26-50](http://community.fortunecity.ws/roswell/vortex/401/library/aoww/aoww02.htm){:target="\_blank"}.
+The book is widely available online in many translations, but my favourite is the one from 1992 by Christopher Maurer, which you can find [here](http://community.fortunecity.ws/roswell/vortex/401/library/aoww/aoww01.htm){:target="\_blank"}.
 
 ### Categorisation of the Maxims
 
@@ -36,17 +36,17 @@ The first two categories are quite easy:
 - Number and Title: The position and title given to the maxims in the book;
 - Frequency of Reference: how often I use these maxims, if you aren't sure about where to start, start reading the maxims from the "Often" category;
 
-Picking the component virtues for worldly wisdom was quite challenging. In the end I settled on the two Domains, Personal and Social, and on a number of Graces for each domain, as follows:
+Picking the component virtues for worldly wisdom was quite challenging. In the end, I settled on the two Domains, Personal and Social, and on a number of Graces for each domain, as follows:
 
 - Personal Graces: how to be a worldly wise person:
   - Courage: fortitude and the ability to confront fear and uncertainty;
-  - Industry: being always employ'd in something useful and cutting off all unnecessary actions;
+  - Industry: being always employed in something useful and cutting off all unnecessary actions;
   - Justice: wrong none by doing injuries, or omitting the benefits that are your duty;
   - Knowledge: being well informed with tasteful learning and witticisms;
   - Judgement: discerning the appropriate course of action for a given situation, at the appropriate time;
   - Resolution: resolving to perform what you ought, performing without fail what is resolved;
   - Temperance: the practice of self-control, abstention, discretion and moderation;
-  - Tranquillity: living fully, being present and undisturbed by trifles.
+  - Tranquility: living fully, being present and undisturbed by trifles.
 - Social Graces: how to act like a worldly wise person in the presence of others:
   - Appearances: to have worth, and to know how to show it, is to be worth double;
   - Friends: befriending intellectuals, cultivating friendships with teachers;
@@ -111,5 +111,51 @@ PS: The table is interactive, you can click on the columns to sort the content :
   | 048	| You are as much a real person as you are deep | Barely | Personal | Knowledge |
   | 049	| A person of sharp observation and sound judgment | Barely | Personal | Judgement |
   | 050	| Never lose your self-respect | Occasionally | Personal | Temperance |
+  | 051 | Know how to choose | Barely | Personal | Judgement |
+  | 052 | Never lose your composure | Barely | Personal | Temperance |
+  | 053 | Be diligent and intelligent | Barely | Personal | Resolution |
+  | 054 | Act boldly but prudently | Barely | Personal | Courage |
+  | 055 | Know how to wait | Barely | Personal | Judgement |
+  | 056 | Think on your feet | Barely | Personal | Courage |
+  | 057 | Thoughtful people are safer | Barely | Personal | Temperance |
+  | 058 | Adapt to those around you | Barely | Social | Relations |
+  | 059 | End well | Barely | Social | Relations |
+  | 060 | Good judgment | Barely | Personal | Judgement |
+  | 061 | Eminence in what is best | Barely | Social | Relations |
+  | 062 | Use the best instruments | Barely | Social | Friends |
+  | 063 | The excellence of being first | Barely | Personal | Resolution |
+  | 064 | Avoid grief | Barely | Personal | Tranquillity |
+  | 065 | Elevated taste | Barely | Social | Friends |
+  | 066 | Take care to make things turn out well | Often | Personal | Resolution |
+  | 067 | Choose an occupation in which you can win praise | Often | Social | Relations |
+  | 068 | Make others understand | Often | Social | Relations |
+  | 069 | Don't give in to every common impulse | Barely | Personal | Temperance |
+  | 070 | Know how to say no | Barely | Social | Relations |
+  | 071 | Don't be inconsistent, either because of temperament or out of affectation | Barely | Personal | Temperance |
+  | 072 | Be resolute | Barely | Personal | Resolution |
+  | 073 | Know when to be evasive | Barely | Social | Relations |
+  | 074 | Don't be unfriendly | Often | Social | Relations |
+  | 075 | Choose a heroic model, and emulate rather than imitate | Barely | Personal | Industry |
+  | 076 | Don't always be joking | Occasionally | Social | Relations |
+  | 077 | Adapt yourself to everyone else | Occasionally | Social | Relations |
+  | 078 | Skill at trying things out | Occasionally | Personal | Temperance |
+  | 079 | A jovial character | Often | Social | Relations |
+  | 080 | Be careful when you inform yourself about things |  | Social | Relations |
+  | 081 | Renew your brilliance | Often | Social | Appearances |
+  | 082 | Neither all bad nor all good | Barely | Social | Appearances |
+  | 083 | Allow yourself some venial fault | Barely | Social | Appearances |
+  | 084 | Know how to use your enemies | Barely | Social | Relations |
+  | 085 | Don't be the wild card | Barely | Social | Appearances |
+  | 086 | Head off rumor | Barely | Social | Relations |
+  | 087 | Culture and refinement | Occasionally | Personal | Knowledge |
+  | 088 | Deal with others in a grand way | Occasionally | Social | Appearances |
+  | 089 | Know yourself: your character, intellect, judgment, and emotions | Occasionally | Personal | Temperance |
+  | 090 | The art of living long: live well | Often | Personal | Justice |
+  | 091 | Never act unless you think it prudent to do so | Occasionally | Personal | Judgement |
+  | 092 | Transcendent wisdom, in every situation | Occasionally | Personal | Judgement |
+  | 093 | A universal man | Often | Social | Friends |
+  | 094 | Unfathomable gifts | Often | Social | Appearances |
+  | 095 | Keep expectations alive | Often | Social | Appearances |
+  | 096 | Good common sense | Occasionally | Personal | Judgement |
 
 </div>

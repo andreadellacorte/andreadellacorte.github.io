@@ -4,6 +4,8 @@ title: System Design
 category: interviewing
 ---
 
+<img src="{{site.url}}/{{site.images}}/software-development/distributed-system.png">
+
 An algorithm for solving system design interviews:
 
 1. Requirements

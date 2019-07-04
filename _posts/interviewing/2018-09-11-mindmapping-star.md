@@ -2,6 +2,7 @@
 layout: post
 title: Mindmapping STAR
 category: interviewing
+toc: true
 ---
 
 This is how I prepare for interviews.

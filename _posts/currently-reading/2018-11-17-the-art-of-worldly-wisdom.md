@@ -158,4 +158,14 @@ PS: The table is interactive, you can click on the columns to sort the content :
   | 095 | Keep expectations alive | Often | Social | Appearances |
   | 096 | Good common sense | Occasionally | Personal | Judgement |
 
+  It is the throne of reason, the foundation of prudence, and by its light it is easy to succeed. It is a gift from heaven, highly prized because it is first and best. Good sense is our armor, so necessary that the lack of this single piece will make people call us lacking. When least present, most missed. All actions in life depend on its influence, and all solicit its approval, for all depends on intelligence. It consists of a natural inclination to all that conforms most to reason, and to all that is most fit.
+
+  | 097 | Make your reputation and keep it |  |  |  |
+  We enjoy it on loan from Fame. It is expensive, for it is born from eminence, which is as rare as mediocrity is common. Once attained, it is easily kept. It confers many an obligation, performs many a deed. It is a sort of majesty when it turns into veneration, through the sublimity of its origin and sphere of action. Reputations based on substance are the ones that have always endured.
+  | 098 | Write your intentions in cipher |  |  |  |
+  The passions are the gates of the spirit. The most practical sort of knowledge lies in dissimulation. The person who shows his cards risks losing. Let caution and reserve combat the attentiveness of others. When your opponent sees into your reasoning like a lynx, conceal your thoughts like an inky cuttlefish. Let no one discover your inclinations, no one foresee them, either to contradict or to flatter them.
+  | 099 | Reality and appearance |  |  |  |
+  Things pass for what they seem, not for what they are. Only rarely do people look into them, and many are satisfied with appearances. It isn't enough to be right if your face looks malicious and wrong.
+  | 100 | A man free of deceit and illusion |  |  |  |
+  One who is virtuous and wise, a courtly philosopher. But do not be so only in appearance, or flaunt your virtue. Philosophy is no longer revered, although it is the chief pursuit of the wise. The science of prudence is no longer venerated. Seneca introduced it to Rome, and for a time it appealed to the noble. But now it is considered useless and bothersome. And yet freeing oneself from deceit has always been food for prudence, and one of the delights of righteousness.
 </div>

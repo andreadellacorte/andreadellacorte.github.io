@@ -2,7 +2,7 @@
 layout: book
 category: currently-reading
 finished: false
-title: Made to Stick, ch. 1 to 5
+title: Made to Stick
 description: Why some ideas take hold and others come unstuck
 authors: Chip & Dan Heath
 year: Paperback, 2008
@@ -72,3 +72,7 @@ toc: true
   3. A third way doesn't rely neither nor authority nor numbers: proving with a concrete example we are clearly (over-)qualified for the job: "if you've made it there, you can make it anywhere".
   4. A fourth way is with testable credentials, claims that can be immediately verified by your audience ("see for yourself!").
 - It's not always obvious which of these approaches we should use, so the key here is perseverance: we should try to mix and match these approaches, knowing when it's time to draw from a different well.
+
+### Chapter 6 - Emotional
+n
+-

@@ -293,7 +293,8 @@ Dual strategies try to increase the perceived value, while lowering cost. They a
 Due to these fundamental forces working against each other, dual strategies can become incoherent, leading to a “Stuck in the middle” problem and ultimately to competitive disadvantage.
 
 For the Dual advantage strategy to be feasible two things are needed:
-- Managerial innovation
+
+- Managerial driven innovation;
 - Disciplined evaluation of cost-differentiation trade-offs.
 
 ### Strategic Renewal

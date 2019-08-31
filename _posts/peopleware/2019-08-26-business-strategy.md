@@ -5,10 +5,11 @@ category: peopleware
 toc: true
 ---
 
-My notes from the excellent [Business Strategy](https://www.coursera.org/learn/strategy-business/home/welcome) class from Coursera.
+My notes from the excellent [Business Strategy](https://www.coursera.org/learn/strategy-business/home/welcome) class{% include footnote-link.html number=1 %} from Coursera.
+
+{% include footnote-content.html number='1' content='<a href="https://giesbusiness.illinois.edu/profile/deepak-somaya" target="_blank_">The teacher</a> is particularly good. I highly recommend this class.' %}
 
 ### Leading Strategically
-
 This idea of aligning internal aspects of an organization with the external environment is
 a core idea in strategy, called strategic fit.
 

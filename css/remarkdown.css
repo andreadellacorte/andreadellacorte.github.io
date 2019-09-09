@@ -1,13 +1,19 @@
+:root {
+    --font-color: #505050;
+    --border-color: #DDD;
+    --link-color: #477DB8;
+    --accent-color: #F02050;
+    --background-color: #EEE;
+    --body-color: white;
+    --phoneWidth: (max-width:684px);
+    --tabletWidth: (max-width:900px);
+}
+
 /*! ReMarkdown 3.0.0 (MIT) https://fvsch.github.io/remarkdown/ */
 /*
   Included: all styles
   Defaults: hn-reset hn-hash ul-hyphen ol-decimal quote-gt em-star strong-star a-bracket code-tick pre-indent hr-star
 */
-.remarkdown {
-  line-height: 1.5;
-  font-family: monospace;
-  color: #505050;
-}
 
 .remarkdown pre,
 .remarkdown code,
@@ -413,7 +419,7 @@ hr {
 
 @media (min-width: 900px) {
   html {
-    background-color: #EEE;
+    background-color: var(--background-color);
   }
 }
 
@@ -421,22 +427,21 @@ body {
   max-width: 750px;
   padding: 30px;
   margin: 0 auto;
-  color: #202020
-  background-color: white;
+  color: var(--font-color);
 }
 
 @media (min-width: 900px) {
   body {
     margin: 30px auto;
     padding: 40px 80px;
-    border: 1px solid #DDD;
-    background-color: white;
-    box-shadow: 3px 3px 3px -2px #DDD;
+    border: 1px solid var(--border-color);
+    background-color: var(--body-color);
+    box-shadow: 3px 3px 3px -2px var(--border-color);
   }
 }
 
 a {
-  color: #477DB8;
+  color: var(--link-color);
   text-decoration: none;
 }
 a:hover {
@@ -444,7 +449,7 @@ a:hover {
 }
 a:focus, a:active {
   color: white;
-  background-color: #477DB8;
+  background-color: var(--link-color);
 }
 
 nav {
@@ -471,11 +476,12 @@ nav > span {
 .remarkdown ::before,
 .remarkdown ::after {
   opacity: .6;
-  color: #F02050;
+  color: var(--accent-color);
 }
 
 /* Our own font-family. Also setting one for code elements */
 .remarkdown {
+  line-height: 1.5;
   font-family: monospace
 }
 

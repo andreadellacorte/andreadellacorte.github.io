@@ -16,6 +16,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-compress-images
 
+exclude: [ _compress_images_cache.yml ]
+
 author: Andrea Della Corte
 
 collections:

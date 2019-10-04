@@ -18,6 +18,9 @@ plugins:
 
 exclude: [ _compress_images_cache.yml ]
 
+imageoptim:
+  svgo: false
+
 author: Andrea Della Corte
 
 collections:

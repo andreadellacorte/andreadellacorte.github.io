@@ -8,15 +8,15 @@ list:
 
 - title: invitation
   url: /invitation
+  
+- title: links
+  url: /links
 
 - title: about
   url: /about
 
 - title: resume
   url: /resume
-
-- title: subscribe
-  url: /subscribe
 
 - title: rss
   url: /feed.xml

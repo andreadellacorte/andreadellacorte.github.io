@@ -3,6 +3,10 @@ layout: page
 title: Links
 ---
 
+### UX
+
+- [The Twelve-Factor App, A methodology for building modern, scalable, maintainable software-as-a-service apps](https://12factor.net/)
+
 ### Parenthood
 
 - [Paul Graham’s thoughts, discoveries, and tricks on parenthood](https://www.unclepaul.io/)

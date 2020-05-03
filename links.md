@@ -3,6 +3,11 @@ layout: page
 title: Links
 ---
 
+### Peopleware
+
+- [How To Change Your Organizational Culture](http://agilitrix.com/2018/07/change-organizational-culture/)
+- [Changing the Culture by Changing Habits](https://www.agilebossanova.com/changing-the-culture-by-changing-habits/)
+
 ### UX
 
 - [The Twelve-Factor App, A methodology for building modern, scalable, maintainable software-as-a-service apps](https://12factor.net/)

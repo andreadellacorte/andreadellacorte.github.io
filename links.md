@@ -27,3 +27,7 @@ title: Links
 ### Writing
 
 - [BLUF: The Military Standard That Can Make Your Writing More Powerful](https://www.animalz.co/blog/bottom-line-up-front/)
+
+### Scripts
+
+- [Make your PDFs look scanned](https://gist.github.com/andreadellacorte/cd45b93c84de1773a742b22e40380e36)

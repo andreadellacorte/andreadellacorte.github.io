@@ -10,13 +10,13 @@ link: https://amzn.to/2QouhIk
 toc: false
 ---
 
-Read it at https://calendarwisdom.com/
-
 DAILY THOUGHTS TO NOURISH THE SOUL
 
 WRITTEN AND SELECTED FROM THE WORLD'S SACRED TEXTS BY LEO TOLSTOY
 
 TRANSLATED FROM THE RUSSIAN BY PETER SEKIRIN
+
+Read it at https://calendarwisdom.com/
 
 Note to Reader: In all of the book's original Russian-language editions, Tolstoy highlighted on each page the one quote that most succinctly expressed the day's theme. These quotes have been italicized in this edition - Peter Sekirin
 

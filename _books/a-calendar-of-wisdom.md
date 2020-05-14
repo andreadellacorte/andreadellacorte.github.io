@@ -1,13 +1,13 @@
 ---
 layout: book
-finished: true
+finished: false
 title: A Calendar of Wisdom
 description: Daily Thoughts to Nourish the Soul
 authors: Leo Tolstoy
 year: 1908
 store: Amazon
-link: https://amzn.to/2QouhIk
-toc: false
+link: https://smile.amazon.co.uk/Calendar-Wisdom-Alma-Classics/dp/184749563X
+toc: true
 ---
 
 DAILY THOUGHTS TO NOURISH THE SOUL
@@ -29,3 +29,13 @@ The process of collecting these thoughts took over fifteen years. Tolstoy began 
 Tolstoy added about eight hundred of his own thoughts, written during his many years of meditation, or taken from previous diary entries. He generally started each day with an opening thought of his own, added quotes by other sources, and finished each day with a closing thought of his own.
 
 Additionally, he wrote a short story, or vignette, three to ten pages in length for the end of every week. Each story corresponded to that week's moral, philosophical, or religious topic; he prepared fifty-two stories in all and called them The Sunday Reading Stories. The majority of these fifty-two stories were written by Tolstoy especially for this work; the rest were selected and adapted from writings by Plato, Buddha, Dostoyevski, Pascal, Leskov, Chekhov, and others.
+
+### Daily Notes
+
+#### 2020
+
+##### May 14th - London, 0109am
+
+Hold on tight to your self; do not be afraid: you are both center and power.
+
+[Hold your Colour - Pendulum](https://www.youtube.com/watch?v=9mWLig0s_9k)

@@ -1,7 +1,7 @@
 ---
 layout: book
+category: book
 finished: false
-category: currently-reading
 title: The Art of Worldly Wisdom
 description: A Pocket Oracle
 authors: Balthasar Gracián

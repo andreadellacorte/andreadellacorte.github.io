@@ -1,3 +1,3 @@
 ---
-layout: books
+layout: category
 ---

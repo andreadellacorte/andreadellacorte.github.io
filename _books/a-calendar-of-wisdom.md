@@ -1,6 +1,6 @@
 ---
 layout: book
-finished: false
+finished: true
 title: A Calendar of Wisdom
 description: Daily Thoughts to Nourish the Soul
 authors: Leo Tolstoy

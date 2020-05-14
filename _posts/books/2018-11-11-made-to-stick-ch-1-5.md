@@ -1,6 +1,6 @@
 ---
 layout: book
-category: currently-reading
+category: book
 finished: false
 title: Made to Stick, ch. 1 to 5
 description: Why some ideas take hold and others come unstuck

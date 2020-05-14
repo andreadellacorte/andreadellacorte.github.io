@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 finished: true
 title: Superforecasting
 description: The Art & Science of Prediction

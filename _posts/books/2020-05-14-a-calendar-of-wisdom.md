@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 finished: false
 title: A Calendar of Wisdom
 description: Daily Thoughts to Nourish the Soul

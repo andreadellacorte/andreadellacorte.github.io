@@ -1,6 +1,6 @@
 ---
 layout: book
-category: book
+category: books
 finished: false
 title: The Art of Worldly Wisdom
 description: A Pocket Oracle

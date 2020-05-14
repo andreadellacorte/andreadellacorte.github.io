@@ -9,7 +9,7 @@ title: Bookshelf
 
 <ul>
   {% for post in site.categories["books"] %}
-    {% if book.finished %} {% continue %} {% endif %}
+    {% if post.finished %} {% continue %} {% endif %}
     {% assign folder = post.path | split: "/" | first %}
     <li><a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a> - {{ post.description }}</li>
   {% endfor %}
@@ -19,7 +19,7 @@ title: Bookshelf
 
 <ul>
   {% for post in site.categories["books"] %}
-    {% unless book.finished %} {% continue %} {% endunless %}
+    {% unless post.finished %} {% continue %} {% endunless %}
     {% assign folder = post.path | split: "/" | first %}
     <li><a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a> - {{ post.description }}</li>
   {% endfor %}

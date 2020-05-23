@@ -37,6 +37,12 @@ Additionally, he wrote a short story, or vignette, three to ten pages in length 
 
 ##### May 14th - London, 0109am
 
-Hold on tight to your self; do not be afraid: you are both center and power.
+Hold on tight, do not be afraid. Your soul is both center and power.
 
 [Hold your Colour - Pendulum](https://www.youtube.com/watch?v=9mWLig0s_9k)
+
+##### May 23rd - London, 1647pm
+
+Non e' ricco chi ha molti soldi, e' ricco chi ha pochi bisogni.
+
+[Pizza - Statistix](https://www.youtube.com/watch?v=yoKrSbdhylA)

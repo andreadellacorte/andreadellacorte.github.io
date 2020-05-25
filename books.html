@@ -8,32 +8,33 @@ title: Bookshelf
 <h3>Currently reading:</h3>
 
 <ul>
-  {% for post in site.categories["books"] %}
-    {% if post.finished %} {% continue %} {% endif %}
-    {% assign folder = post.path | split: "/" | first %}
-    <li><a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a> - {{ post.description }}</li>
+  {% for book in site.categories["books"] %}
+    {% if book.finished %} {% continue %} {% endif %}
+    {% assign folder = book.path | split: "/" | first %}
+    <li><a href="{{ book.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ book.title }}</a> - {{ book.description }}</li>
   {% endfor %}
 </ul>
 
-<h3>Completed summaries:</h3>
+<h3>Summaries:</h3>
 
 <ul>
-  {% for post in site.categories["books"] %}
-    {% unless post.finished %} {% continue %} {% endunless %}
-    {% assign folder = post.path | split: "/" | first %}
-    <li><a href="{{ post.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ post.title }}</a> - {{ post.description }}</li>
+  {% for book in site.categories["books"] %}
+    {% unless book.finished %} {% continue %} {% endunless %}
+    {% assign folder = book.path | split: "/" | first %}
+    <li><a href="{{ book.url }}">{% if folder == "_drafts" %}&#10033;&nbsp;{% endif %}{{ book.title }}</a> - {{ book.description }} {{ book.stars }}</li>
   {% endfor %}
 </ul>
 
-<h3>Next in line:</h3>
+<h3>Completed:</h3>
 
 <ul>
-  <li><a href="https://amzn.to/2Nr1Eva">The Relationship Manager</a></li>
-  <li><a href="https://amzn.to/2oMTv6v">A Pocket Mirror for Heroes</a></li>
-  <li><a href="https://amzn.to/2QgI2sx">Zero to One</a></li>
-  <li><a href="https://www.principles.com/big-debt-crises/">A Template for Understanding Big Debt Crises</a></li>
-  <li><a href="https://amzn.to/2O9yzS9">It Doesn’t Have to Be Crazy at Work</a></li>
-  <li><a href="https://smile.amazon.co.uk/Unwritten-Laws-Engineering-W-J-King/dp/0791801624">The Unwritten Laws of Engineering</a></li>
+  <li>The Dark Tower VII: The Dark Tower ⭑⭑⭑⭑</li>
+  <li>The Dark Tower VI: Song of Susannah ⭑⭑⭑</li>
+  <li>The Dark Tower V: Wolves of the Calla ⭑⭑⭑</li>
+  <li>The Dark Tower IV: Wizard and Glass ⭑⭑⭑⭑⭑</li>
+  <li>The Dark Tower III: The Waste Lands ⭑⭑⭑⭑⭑</li>
+  <li>The Dark Tower II: The Drawing of the Three ⭑⭑⭑⭑⭑</li>
+  <li>The Dark Tower: The Gunslinger ⭑⭑⭑⭑</li>
 </ul>
 
 {% include footer.html %}

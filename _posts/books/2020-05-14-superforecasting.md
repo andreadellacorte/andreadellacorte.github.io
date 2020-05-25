@@ -5,6 +5,7 @@ finished: true
 title: Superforecasting
 description: The Art & Science of Prediction
 authors: Philip Tetlock and Dan Gardner
+stars: ⭑⭑⭑⭑⭑
 year: 2015
 store: Amazon
 link: https://amzn.to/2QouhIk

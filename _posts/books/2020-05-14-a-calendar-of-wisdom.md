@@ -43,6 +43,16 @@ Hold on tight, do not be afraid. Your soul is both center and power.
 
 [Hold your Colour - Pendulum](https://www.youtube.com/watch?v=9mWLig0s_9k)
 
+##### May 15th - London, LATE
+
+Topic: Truth
+
+But what is truth? And how do you know if you're on the right path?
+
+> “Let be what will be,” said the gunslinger, as his own mother had once told him. “Let be what will be, and hush, and let ka work.” - The Dark Tower VII
+
+[I need to paint my walls (Original Mix) · A L E X](https://www.youtube.com/watch?v=Q_SSBsy4qAk)
+
 ##### May 23rd - London, 1647pm
 
 Topic: Needs
@@ -58,5 +68,3 @@ Topic: Love
 Being together, just like this.
 
 [forder - delayd](https://www.youtube.com/watch?v=XobzWm3uPbM)
-
-[I need to paint my walls (Original Mix) · A L E X](https://www.youtube.com/watch?v=Q_SSBsy4qAk)

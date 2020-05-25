@@ -37,12 +37,26 @@ Additionally, he wrote a short story, or vignette, three to ten pages in length 
 
 ##### May 14th - London, 0109am
 
+Topic: Soul
+
 Hold on tight, do not be afraid. Your soul is both center and power.
 
 [Hold your Colour - Pendulum](https://www.youtube.com/watch?v=9mWLig0s_9k)
 
 ##### May 23rd - London, 1647pm
 
-Non e' ricco chi ha molti soldi, e' ricco chi ha pochi bisogni.
+Topic: Needs
+
+Non e' ricco chi ha molti soldi, e' ricco chi ha pochi bisogni - Mio padre.
 
 [Pizza - Statistix](https://www.youtube.com/watch?v=yoKrSbdhylA)
+
+##### May 24rd - London, 2302pm
+
+Topic: Love
+
+Being together, just like this.
+
+[forder - delayd](https://www.youtube.com/watch?v=XobzWm3uPbM)
+
+[I need to paint my walls (Original Mix) · A L E X](https://www.youtube.com/watch?v=Q_SSBsy4qAk)

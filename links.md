@@ -30,4 +30,4 @@ title: Links
 
 ### Scripts
 
-- [Make your PDFs look scanned](https://gist.github.com/andreadellacorte/cd45b93c84de1773a742b22e40380e36)
+- [My ZSH Aliases](https://gist.github.com/andreadellacorte/3aa914c411ca22ab1fa2ce6cc6fb8d76)

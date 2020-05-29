@@ -4,11 +4,11 @@ list:
   url: /
 
 - title: bookshelf
-  url: /books
+  url: /bookshelf
 
 - title: invitation
   url: /invitation
-  
+
 - title: links
   url: /links
 

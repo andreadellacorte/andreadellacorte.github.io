@@ -4,7 +4,7 @@
   <!-- Here's a hack to generate a "tag cloud" where the size of
   the word is directly proportional to the number of posts with
   that tag. -->
-  <a href="/categories/{{ tag[0] | split: ' ' | join: '-' }}" style="font-size: {{ tag[1] | size | times: 2 | plus: 11 }}px">{{ tag[0] }}</a>
+  <a href="/{{ tag[0] | split: ' ' | join: '-' }}" style="font-size: {{ tag[1] | size | times: 2 | plus: 11 }}px">{{ tag[0] }}</a>
 	{% unless forloop.last %} • {% endunless %}
   {% endfor %}
 </p>

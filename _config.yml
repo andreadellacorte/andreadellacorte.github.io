@@ -24,8 +24,6 @@ imageoptim:
 author: Andrea Della Corte
 
 collections:
-  books:
-    output: true
   presentations:
     output: true
   categoriess:
@@ -41,7 +39,7 @@ defaults:
       path: ""
       type: "categoriess"
     values:
-      permalink: /categories/:title/
+      permalink: /:title/
 
 compress_images:
   images_path: "static/imgs/**/*.{gif,png,jpg,jpeg,svg}"

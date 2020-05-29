@@ -3,8 +3,14 @@ layout: base
 ---
 <div class="row">
 	<h2>{{ page.title }} - {{ page.description }}</h2>
-	<blockquote>by {{ page.authors}}, {{ page.year }}</blockquote>
-	Buy it on <a href="{{page.link}}">{{ page.store }}</a>
+	<blockquote>a <a href="/books">book</a> by {{ page.authors}}, {{ page.year }}</blockquote>
+
+	Buy it on <a href="{{page.link}}">{{ page.store }}</a> • <i class="fa fa-clock-o"></i>
+  {% if words contains "-" %}
+  	1 minute read
+  {% else %}
+  	{{ words | plus: 220 | divided_by: 220 | append: " minutes read" }}
+  {% endif %}
 	{% if page.toc %}
 		<h3> Table of Contents</h3>
 		{% include toc.html html=content %}

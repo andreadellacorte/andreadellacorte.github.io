@@ -9,7 +9,7 @@ layout: base
 		{{ page.content | number_of_words | minus: 220 }}
 	{% endcapture %}
 	On {{ page.date | date: "%B %-d, %Y"  }} in
-	<a href="/">{{ page.category | split: '-' | join: ' ' }}</a> • <i class="fa fa-clock-o"></i>
+	<a href="/{{ page.category }}">{{ page.category }}</a> • <i class="fa fa-clock-o"></i>
 	{% if words contains "-" %}
 		1 minute read
 	{% else %}
@@ -31,8 +31,6 @@ layout: base
 -->
 
 {% include related.html %}
-
-{% include subscribe-footer.html %}
 
 {% include social.html %}
 

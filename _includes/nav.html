@@ -8,7 +8,7 @@
     {% endif %}
 
     {% if new_var == page.url %}
-      <em>{{ item.title }}</em>
+      <span id="selected-page"><em>{{ item.title }}</em></span>
     {% else %}
       <a href="{{ item.url }}">{{ item.title }}</a>
     {% endif %}

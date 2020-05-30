@@ -178,10 +178,6 @@ Yet, for it to be usable, we have to be more specific: "maybe" might mean 1%, 2%
 
 The data from the tournament backs up this practice; Superforecasters which provided more fine-grained estimates (20% vs 25% vs 30%) fared better than the ones with lower resolution (20% vs 30% vs 40%).
 
-### Putting it all together
-
-<a href="{{site.url}}/forecasting/superforecaster">Modal Superforecaster</a>
-
 ### Resources
 
 - Other notes from https://www.amazon.com/gp/aw/review/B00Y78X7HY/R3Q2RDFGVUFXZ8

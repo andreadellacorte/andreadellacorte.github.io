@@ -3,8 +3,6 @@ layout: base
 title: Timeline
 ---
 
-{% include tagcloud.html %}
-
 ## Posts
 
 {% for post in site.posts %}

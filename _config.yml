@@ -26,8 +26,6 @@ author: Andrea Della Corte
 collections:
   presentations:
     output: true
-  categoriess:
-    output: true
 
 defaults:
   - scope:
@@ -35,11 +33,6 @@ defaults:
       type: "posts"
     values:
       permalink: /:categories/:title/
-  - scope:
-      path: ""
-      type: "categoriess"
-    values:
-      permalink: /:title/
 
 compress_images:
   images_path: "static/imgs/**/*.{gif,png,jpg,jpeg,svg}"

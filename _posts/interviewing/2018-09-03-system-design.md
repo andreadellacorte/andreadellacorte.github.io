@@ -10,7 +10,7 @@ An algorithm for solving system design interviews:
 
 1. Requirements
   - Extract use cases
-  - Understand: Users x Performances x [ACID](acid-properties.html) x [CAP](cap-theorem.html)
+  - Understand: Users x Performances x [ACID]({{site.url}}/software-development/acid-properties) x [CAP]({{site.url}}/software-development/cap-theorem)
 2. Math
   - Data in (Concurrency) X Data out
   - Latency x Throughput

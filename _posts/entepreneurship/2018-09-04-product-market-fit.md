@@ -4,7 +4,7 @@ title: Product Market Fit
 category: entepreneurship
 ---
 
-Notes from [Peter Rheinhart's How to Find Product Market Fit](https://www.startupschool.org/videos/13 ).
+Notes from Peter Rheinhart's How to Find Product Market Fit:
 
 ## Seeking Product Market Fit
 

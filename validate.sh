@@ -1,1 +1,0 @@
-bundle exec htmlproofer --assume-extension --empty-alt-ignore --typhoeus-config '{ "ssl_verifypeer": false }' --http-status-ignore 999 ./_site

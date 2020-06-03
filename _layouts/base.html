@@ -6,7 +6,9 @@
 	{% include styling.html %}
 	</head>
 	<body class="remarkdown">
-		{% include body_analytics.html %}
+		{% if jekyll.environment == 'production' %}
+		  {% include body_analytics.html %}
+		{% endif %}
 		{% include nav.html %}
 		<main class="remarkdown">
 			{{ content }}

@@ -6,10 +6,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@glorious/demo/dist/gdemo.min.js"></script>
   </head>
   <body>
-    {% include body_analytics.html %}
+    {% if jekyll.environment == 'production' %}
+		  {% include body_analytics.html %}
+		{% endif %}
     <div id="container"></div>
 
     {{ content }}
-    
+
   </body>
 </html>

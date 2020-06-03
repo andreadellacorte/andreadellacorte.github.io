@@ -50,7 +50,9 @@
     <script src="/js/dndTree.js"></script>
   </head>
   <body>
-    {% include body_analytics.html %}
+    {% if jekyll.environment == 'production' %}
+		  {% include body_analytics.html %}
+		{% endif %}
     <div id="tree-container"></div>
   </body>
 </html>

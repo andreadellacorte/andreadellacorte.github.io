@@ -28,6 +28,10 @@ title: Links
 
 - [BLUF: The Military Standard That Can Make Your Writing More Powerful](https://www.animalz.co/blog/bottom-line-up-front/)
 
+### Tools
+
+- [Virtual whiteboard for sketching hand-drawn like diagrams](https://excalidraw.com/)
+
 ### Scripts
 
 - [My ZSH Aliases](https://gist.github.com/andreadellacorte/3aa914c411ca22ab1fa2ce6cc6fb8d76)

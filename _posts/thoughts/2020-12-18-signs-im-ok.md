@@ -15,3 +15,4 @@ Writing these down so I can recognize when I need a mental health day (or more).
 5. I experience surges of creativity, coming up with novel ideas for things to do or ways to do things
 6. I spend quiet time on hobbies and other non-directed activities
 7. I use a lot less social media and get out of bed early
+8. I take care of myself; I drink lots of water, exercise, take walks

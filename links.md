@@ -31,6 +31,7 @@ title: Links
 ### Tools
 
 - [Virtual whiteboard for sketching hand-drawn like diagrams](https://excalidraw.com/)
+- [Make a PDF look scanned](https://gist.github.com/andreadellacorte/cd45b93c84de1773a742b22e40380e36)
 
 ### Scripts
 

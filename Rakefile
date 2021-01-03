@@ -3,7 +3,7 @@ require 'html-proofer'
 task default: %w[ run ]
 
 task :test do
-  sh %{ bundle exec jekyll server --config '_config.yml,_config.dev.yml' >/dev/null 2>&1 & }
+  sh %{ bundle exec jekyll serve --config '_config.yml,_config.dev.yml' >/dev/null 2>&1 & }
 
   HTMLProofer.check_directory("./_site", {
     :assume_extension => true,
@@ -19,5 +19,5 @@ task :test do
 end
 
 task :run do
-  sh %{ bundle exec 'jekyll server --livereload --drafts --config "_config.yml,_config.dev.yml"' }
+  sh %{ bundle exec 'jekyll serve --livereload --drafts --config "_config.yml,_config.dev.yml"' }
 end

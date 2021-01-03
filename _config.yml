@@ -18,7 +18,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-compress-images
 
-exclude: [ _compress_images_cache.yml ]
+exclude:
+  - _compress_images_cache.yml
+  - _includes/notes_graph.json
 
 imageoptim:
   svgo: false

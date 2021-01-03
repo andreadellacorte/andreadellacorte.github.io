@@ -5,3 +5,4 @@ _drafts
 .jekyll-metadata
 .jekyll-cache
 .ruby-version
+_includes/notes_graph.json

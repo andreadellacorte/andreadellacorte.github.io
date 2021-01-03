@@ -1,7 +1,9 @@
+<h2>Related <a href="#top">Back to top ↑</a></h2>
+
+<h3>Other {% include pretty-category.html category=page.category %} Pages</h3>
+
 {% unless site.categories[page.category].size == 1 %}
   <span id="related"></span>
-
-  <h2>Other {% include pretty-category.html category=page.category %} Pages <a href="#top">↑</a></h2>
   <ul>
     {% for post in site.categories[page.category] %}
       {% unless post.url == page.url %}
@@ -11,4 +13,18 @@
       {% endunless %}
     {% endfor %}
   </ul>
+{% else %}
+  No other posts in {% include pretty-category.html category=page.category %} yet.
 {% endunless %}
+
+<h3>Pages mentioning this post</h3>
+
+{% if page.backlinks.size > 0 %}
+<ul>
+{% for backlink in page.backlinks %}
+    <li><a class="internal-link" href="{{ backlink.url }}">{{ backlink.title }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+There are no notes linking to this page.
+{% endif %}

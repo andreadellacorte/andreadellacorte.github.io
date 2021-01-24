@@ -6,3 +6,4 @@ _drafts
 .jekyll-cache
 .ruby-version
 _includes/notes_graph.json
+*.log

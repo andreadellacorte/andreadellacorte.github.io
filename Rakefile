@@ -3,19 +3,17 @@ require 'html-proofer'
 task default: %w[ run ]
 
 task :test do
-  sh %{ bundle exec jekyll serve --config '_config.yml,_config.dev.yml' >/dev/null 2>&1 & }
+  sh %{ bundle exec jekyll build --config '_config.yml,_config.dev.yml' >/dev/null 2>&1 & }
 
   HTMLProofer.check_directory("./_site", {
+    :allow_hash_href => true,
     :assume_extension => true,
+    :disable_external => true,
     :empty_alt_ignore => true,
-    :typhoeus => {
-      :ssl_verifypeer => false
+    :parallel => {
+      :in_processes => 3
     },
-    :http_status_ignore => [ 999 ],
-    :url_ignore => [ /amzn.to/ ]
   }).run
-
-  sh %{ pkill -9 jekyll }
 end
 
 task :run do

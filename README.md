@@ -5,7 +5,7 @@
 *The website targets the latest version of Chrome, Safari, and Firefox.*
 
 <a href="https://dellacorte.me">
-	<img src="https://www.dellacorte.me/static/imgs/screenshot.jpg" width="600">
+	<img src="https://www.dellacorte.me/static/imgs/screenshot.png" width="600">
 </a>
 
 ## Dev

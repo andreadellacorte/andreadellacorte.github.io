@@ -18,6 +18,10 @@ title: Links
 - [Imagine calling someone on the phone, going hello! then putting them on hold... ](https://nohello.net/)
 - [You Can Always Get What You Want — But Not What You Need (Peter Norvig, Berkeley Information School, Graduation 2016)](https://www.youtube.com/watch?v=QCw_D7dr7Rw)
 
+### Philosophy
+
+- [What is Enlightenment?](http://legacy.earlham.edu/~mileske/Files/Kant%27s%20An%20Answer%20to%20the%20Question%20What%20is%20Enlightenment.htm#_ftn1)
+
 ### Random
 
 - [Pickle Cat](https://dn.ht/picklecat/)

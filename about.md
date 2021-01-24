@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![author]({{site.url}}/{{site.images}}/andreadellacorte.png){:class="photo"}
+![author]({{site.url}}/{{site.images}}/andreadellacorte.jfif){:class="photo"}
 
 My name is Andrea and I live in London.
 

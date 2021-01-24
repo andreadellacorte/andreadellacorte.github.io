@@ -535,10 +535,6 @@ img {
   margin-right: auto;
 }
 
-.photo {
-  width: auto;
-}
-
 .remarkdown i.fa { font-size: 11px;  }
 
 #mc_embed_signup .button {
@@ -549,4 +545,10 @@ img {
 
 #mc_embed_signup form {
   padding: 0px 0 0px 0;
+}
+
+img.photo {
+  object-fit: cover;
+  border-radius: 50%;
+  width:auto;
 }

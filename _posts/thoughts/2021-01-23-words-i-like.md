@@ -4,8 +4,15 @@ title: Words I Like
 category: thoughts
 ---
 
+## Frayed, /freɪd/
+
+adjective
+- (of a fabric, rope, or cord) unravelled or worn at the edge.
+- (of a person's nerves or temper) showing the effects of strain.
+
 ## Penchant, /ˈpɒ̃ʃɒ̃/
 
+noun
 - a strong or habitual liking for something or tendency to do something
 
 ## Erstwhile, /ˈəːstwʌɪl/

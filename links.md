@@ -16,6 +16,7 @@ title: Links
 - [How To Change Your Organizational Culture](http://agilitrix.com/2018/07/change-organizational-culture/)
 - [Changing the Culture by Changing Habits](https://www.agilebossanova.com/changing-the-culture-by-changing-habits/)
 - [Imagine calling someone on the phone, going hello! then putting them on hold... ](https://nohello.net/)
+- [You Can Always Get What You Want — But Not What You Need (Peter Norvig, Berkeley Information School, Graduation 2016)](https://www.youtube.com/watch?v=QCw_D7dr7Rw)
 
 ### Random
 

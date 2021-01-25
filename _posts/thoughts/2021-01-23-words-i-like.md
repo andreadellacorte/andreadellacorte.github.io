@@ -8,8 +8,8 @@ toc: true
 ### Frayed, /freɪd/
 
 adjective
-- (of a fabric, rope, or cord) unravelled or worn at the edge.
-- (of a person's nerves or temper) showing the effects of strain.
+- (of a fabric, rope, or cord) unravelled or worn at the edge
+- (of a person's nerves or temper) showing the effects of strain
 
 ### Penchant, /ˈpɒ̃ʃɒ̃/
 
@@ -54,7 +54,7 @@ verb
 ### Sham, /ʃam/
 
 noun
-- a thing that is not what it is purported to be.
+- a thing that is not what it is purported to be
 
 adjective
 - bogus; false
@@ -62,3 +62,9 @@ adjective
 verb
 - pretend to be or to be experiencing
 - falsely present something as the truth
+
+### Disseminate, /dɪˈsɛmɪneɪt/
+
+verb
+- spread (something, especially information) widely
+- spread throughout an organ or the body

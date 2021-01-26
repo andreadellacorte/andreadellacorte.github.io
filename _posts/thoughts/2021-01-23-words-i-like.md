@@ -68,3 +68,9 @@ verb
 verb
 - spread (something, especially information) widely
 - spread throughout an organ or the body
+
+### Quagmire, /ˈkwaɡmʌɪə,ˈkwɒɡmʌɪə/
+
+noun
+- an awkward, complex, or hazardous situation
+- a soft boggy area of land that gives way underfoot

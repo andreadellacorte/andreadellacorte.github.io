@@ -74,3 +74,8 @@ verb
 noun
 - an awkward, complex, or hazardous situation
 - a soft boggy area of land that gives way underfoot
+
+### Affable, /ˈafəb(ə)l/
+
+adjective
+- friendly, good-natured, or easy to talk to

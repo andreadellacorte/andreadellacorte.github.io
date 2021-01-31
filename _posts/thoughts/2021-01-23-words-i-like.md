@@ -79,3 +79,8 @@ noun
 
 adjective
 - friendly, good-natured, or easy to talk to
+
+### Formidable, /ˈfɔːmɪdəb(ə)l,fəˈmɪdəb(ə)l/
+
+adjective
+- inspiring fear or respect through being impressively large, powerful, intense, or capable

@@ -11,8 +11,6 @@ title: Presentations
 
 {% include subscribe-footer.html %}
 
-{% include social.html %}
-
 {% if page.comments %}
 	{% include comments.html %}
 {% endif %}

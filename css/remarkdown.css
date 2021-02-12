@@ -424,8 +424,7 @@ hr {
 }
 
 body {
-  font-size: 120%;
-  max-width: 900px;
+  max-width: 750px;
   padding: 30px;
   margin: 0 auto;
   color: var(--font-color);

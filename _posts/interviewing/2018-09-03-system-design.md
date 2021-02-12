@@ -29,6 +29,7 @@ An algorithm for solving system design interviews:
       - Requests per second resulting in:
         - Write per second (Where? What?)
         - Read per second (Where? What?)
+        - Handy reference: 2.5 million seconds per month
     - Horizontal X Vertical Scaling
   - DNS Server: Resource allocation
     - Resolves the text URL for a particular web resource to the TCP-IP address of the system or service: Must be quick

@@ -13,6 +13,8 @@ github: https://github.com/andreadellacorte/andreadellacorte.github.io/tree/mast
 
 twitter_username: adielleci
 
+timezone: Europe/London
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

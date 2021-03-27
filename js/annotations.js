@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  const $ = (t) => document.querySelector(t);
-  const annotateNav = RoughNotation.annotate($('#selected-page'), { type: 'underline', color: '#F34A71', padding: 4 });
+  const accentColor = getComputedStyle(document.documentElement)
+    .getPropertyValue('--accent-color');
+
+  const annotateNav = RoughNotation.annotate(document.querySelector('#selected-page'), { type: 'underline', color: accentColor, padding: 4 });
   RoughNotation.annotationGroup([annotateNav]).show();
 })

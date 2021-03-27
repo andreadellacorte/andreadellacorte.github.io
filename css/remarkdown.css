@@ -2,7 +2,7 @@
     --font-color: #505050;
     --border-color: #DDD;
     --link-color: #477DB8;
-    --accent-color: #F02050;
+    --accent-color: rgba(240,32,80,0.6);
     --background-color: #EEE;
     --body-color: white;
     --phoneWidth: (max-width:684px);
@@ -428,6 +428,7 @@ body {
   padding: 30px;
   margin: 0 auto;
   color: var(--font-color);
+  background-color: var(--body-color);
 }
 
 @media (min-width: 900px) {
@@ -475,7 +476,6 @@ nav > span {
 /* Make the Markdown-like markers look cool */
 .remarkdown ::before,
 .remarkdown ::after {
-  opacity: .6;
   color: var(--accent-color);
 }
 

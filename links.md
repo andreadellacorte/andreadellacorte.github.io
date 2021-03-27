@@ -7,6 +7,10 @@ title: Links
 
 - [Ten Agile Axioms That Make Managers Anxious](https://www.forbes.com/sites/stevedenning/2018/06/17/ten-agile-axioms-that-make-managers-anxious/#221a1e124619)
 
+### Interviewing
+
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
+
 ### Parenthood
 
 - [Paul Graham’s thoughts, discoveries, and tricks on parenthood](https://www.unclepaul.io/)
@@ -25,6 +29,7 @@ title: Links
 ### Random
 
 - [Pickle Cat](https://dn.ht/picklecat/)
+- [Dance Tonite](https://tonite.dance/)
 
 ### UX
 

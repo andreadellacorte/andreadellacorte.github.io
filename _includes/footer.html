@@ -7,6 +7,8 @@
 	Last updated on {{ site.time | date: '%Y-%m-%d, %I:%M:%S %p %Z' }}</p>
 
 	<p>Theme by <a href="https://fvsch.github.io/remarkdown/">fvsch/remarkdown</a>
+	{% unless site.environment == 'production' %}
 		<span style="color: var(--accent-color);">|</span>
 	<a href="#randomizeColors" id="randomizeColors">random</a></p>
+	{% endunless %}
 </div>

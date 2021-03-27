@@ -11,7 +11,7 @@ $(document).ready(function() {
     var url = "http://colormind.io/api/";
     var data = {
       model : "default"
-    }
+    };
 
     var http = new XMLHttpRequest();
 
@@ -30,11 +30,11 @@ $(document).ready(function() {
 
         const accentColor = getComputedStyle(root).getPropertyValue('--accent-color');
 
-        $('h1').querySelectorAll('svg').forEach(function(element) {
+        document.querySelector('h1').querySelectorAll('svg').forEach(function(element) {
           element.parentNode.removeChild(element);
         });
 
-        const annotateNav = RoughNotation.annotate($('#selected-page'), { type: 'underline', color: accentColor, padding: 4 });
+        const annotateNav = RoughNotation.annotate(document.querySelector('#selected-page'), { type: 'underline', color: accentColor, padding: 4 });
         RoughNotation.annotationGroup([annotateNav]).show();
       }
     }

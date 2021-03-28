@@ -3,6 +3,15 @@ $(document).ready(function() {
     return `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${alpha})`;
   };
 
+  function hexToRgb(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? [
+      parseInt(result[1], 16),
+      parseInt(result[2], 16),
+      parseInt(result[3], 16)
+    ] : null;
+  };
+
   function setPalette(palette) {
     let root = document.documentElement;
 
@@ -23,9 +32,25 @@ $(document).ready(function() {
     RoughNotation.annotationGroup([annotateNav]).show();
   };
 
-  let link = document.querySelector('#randomizeColors');
+  let paletteOne = document.querySelector('#paletteOne');
 
-  link.addEventListener('click', function () {
+  paletteOne.addEventListener('click', function () {
+    // https://lospec.com/palette-list/molten
+    var palette = {
+      bodyColor: rgba(hexToRgb('201727'), 1.0),
+      backgroundColor: rgba(hexToRgb('261b2e'), 1.0),
+      fontColor: rgba(hexToRgb('fd724e'), 1.0),
+      borderColor: rgba(hexToRgb('5f2f45'), 1.0),
+      linkColor: rgba(hexToRgb('a02f40'), 1.0),
+      accentColor: rgba(hexToRgb('382d43'), 1.0)
+    };
+
+    setPalette(palette);
+  });
+
+  let randomizeColors = document.querySelector('#randomizeColors');
+
+  randomizeColors.addEventListener('click', function () {
     var url = "http://colormind.io/api/";
     var data = {
       model : "default",

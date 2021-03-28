@@ -21,7 +21,7 @@ function setPalette(palette) {
   root.style.setProperty('--link-color', palette.linkColor);
   root.style.setProperty('--accent-color', palette.accentColor);
 
-  document.querySelector('meta[name="theme-color"]').setAttribute("content", palette.accentColor);
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", palette.linkColor);
 };
 
 function redrawAnnotations() {

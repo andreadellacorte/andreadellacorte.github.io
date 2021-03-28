@@ -55,25 +55,23 @@ if(readCookie('palette')) {
 $(document).ready(function() {
 
   if(readCookie('palette')) {
-    document.getElementById("paletteOne").style.display = "none";
+    paletteOne.style.display = "none";
+
+    paletteZero.addEventListener('click', () => {
+      eraseCookie('palette');
+      redrawAnnotations();
+      location.reload();
+    });
   } else {
-    document.getElementById("paletteZero").style.display = "none";
+    paletteZero.style.display = "none";
+
+    paletteOne.addEventListener('click', () => {
+      setPalette(palettes[0]);
+      createCookie('palette',0,31);
+      redrawAnnotations();
+      location.reload();
+    });
   }
-
-  let paletteZero = document.querySelector('#paletteZero');
-  paletteZero.addEventListener('click', () => {
-    eraseCookie('palette');
-    redrawAnnotations();
-    location.reload();
-  });
-
-  let paletteOne = document.querySelector('#paletteOne');
-  paletteOne.addEventListener('click', () => {
-    setPalette(palettes[0]);
-    createCookie('palette',0,31);
-    redrawAnnotations();
-    location.reload();
-  });
 
   let randomizeColors = document.querySelector('#randomizeColors');
 

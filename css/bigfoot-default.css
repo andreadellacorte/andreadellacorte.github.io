@@ -1,11 +1,10 @@
 .bigfoot-footnote__button {
   position: relative;
   z-index: 5;
-  top: -0.15em;
   box-sizing: border-box;
   display: inline-block;
-  padding: 0.34em;
-  margin: 0 -0.1em 0 0.2em;
+  padding: 0.34em 0.34em 0.50em 0.19em;
+  margin: 0 0 0 0.2em;
   border: none;
   border-radius: 0.3em;
   cursor: pointer;
@@ -26,16 +25,14 @@
   min-width: 18px;
   text-align: center;
   height: 1.6em;
-  top: -0.25em;
   font-size: 0.75em;
-  font-weight: 600;
   padding-top: 0.53em;
   -webkit-font-smoothing: antialiased;
 }
 
 .bigfoot-footnote__button span {
   color: white;
-  font-family: "Ideal Sans SSm A, Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: monospace;
 }
 
 .bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus {
@@ -60,7 +57,6 @@
   display: inline-block;
   width: 0.25em;
   height: 0.25em;
-  margin-right: 0.25em;
   float: left;
 }
 .bigfoot-footnote__button__circle:last-child {

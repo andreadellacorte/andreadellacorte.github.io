@@ -20,6 +20,8 @@ function setPalette(palette) {
   root.style.setProperty('--border-color', palette.borderColor);
   root.style.setProperty('--link-color', palette.linkColor);
   root.style.setProperty('--accent-color', palette.accentColor);
+
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", palette.accentColor);
 };
 
 function redrawAnnotations() {

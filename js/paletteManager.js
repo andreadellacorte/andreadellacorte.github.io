@@ -53,6 +53,13 @@ if(readCookie('palette')) {
 }
 
 $(document).ready(function() {
+
+  if(readCookie('palette')) {
+    document.getElementById("paletteOne").style.display = "none";
+  } else {
+    document.getElementById("paletteZero").style.display = "none";
+  }
+
   let paletteZero = document.querySelector('#paletteZero');
   paletteZero.addEventListener('click', () => {
     eraseCookie('palette');
@@ -65,6 +72,7 @@ $(document).ready(function() {
     setPalette(palettes[0]);
     createCookie('palette',0,31);
     redrawAnnotations();
+    location.reload();
   });
 
   let randomizeColors = document.querySelector('#randomizeColors');

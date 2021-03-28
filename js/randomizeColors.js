@@ -3,39 +3,51 @@ $(document).ready(function() {
     return `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${alpha})`;
   };
 
-  let root = document.documentElement;
+  function setPalette(palette) {
+    let root = document.documentElement;
+
+    root.style.setProperty('--body-color', palette.bodyColor);
+    root.style.setProperty('--background-color', palette.backgroundColor);
+    root.style.setProperty('--font-color', palette.fontColor);
+    root.style.setProperty('--border-color', palette.borderColor);
+    root.style.setProperty('--link-color', palette.linkColor);
+    root.style.setProperty('--accent-color', palette.accentColor);
+
+    document.querySelector('h1').querySelectorAll('svg').forEach(function(element) {
+      element.parentNode.removeChild(element);
+    });
+
+    const annotateNav = RoughNotation.annotate(
+      document.querySelector('#selected-page'),
+      { type: 'underline', color: palette.accentColor, padding: 4 });
+    RoughNotation.annotationGroup([annotateNav]).show();
+  };
 
   let link = document.querySelector('#randomizeColors');
 
   link.addEventListener('click', function () {
     var url = "http://colormind.io/api/";
     var data = {
-      model : "default"
+      model : "default",
+      input : ["N","N","N","N","N"]
     };
 
     var http = new XMLHttpRequest();
 
-    var palette;
-
     http.onreadystatechange = function() {
       if(http.readyState == 4 && http.status == 200) {
-        palette = JSON.parse(http.responseText).result;
+        var result = JSON.parse(http.responseText).result;
 
-        root.style.setProperty('--body-color', rgba(palette[1], 1.0));
-        root.style.setProperty('--background-color', rgba(palette[0], 1.0));
-        root.style.setProperty('--font-color', rgba(palette[2], 1.0));
-        root.style.setProperty('--border-color', rgba(palette[3], 1.0));
-        root.style.setProperty('--link-color', rgba(palette[3], 1.0));
-        root.style.setProperty('--accent-color', rgba(palette[4], 1.0));
+        var palette = {
+          bodyColor: rgba(result[1], 1.0),
+          backgroundColor: rgba(result[0], 1.0),
+          fontColor: rgba(result[2], 1.0),
+          borderColor: rgba(result[3], 1.0),
+          linkColor: rgba(result[3], 1.0),
+          accentColor: rgba(result[4], 1.0)
+        };
 
-        const accentColor = getComputedStyle(root).getPropertyValue('--accent-color');
-
-        document.querySelector('h1').querySelectorAll('svg').forEach(function(element) {
-          element.parentNode.removeChild(element);
-        });
-
-        const annotateNav = RoughNotation.annotate(document.querySelector('#selected-page'), { type: 'underline', color: accentColor, padding: 4 });
-        RoughNotation.annotationGroup([annotateNav]).show();
+        setPalette(palette);
       }
     }
 

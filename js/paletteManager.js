@@ -53,7 +53,6 @@ if(readCookie('palette')) {
 }
 
 $(document).ready(function() {
-
   if(readCookie('palette')) {
     paletteOne.style.display = "none";
 

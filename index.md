@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Andrea Della Corte
 onlydrafts: false
 ---
 

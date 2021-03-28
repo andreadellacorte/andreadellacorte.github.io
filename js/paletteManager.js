@@ -36,41 +36,67 @@ function redrawAnnotations() {
   RoughNotation.annotationGroup([annotateNav]).show();
 };
 
-var palettes = [
+var palettes = {
+  dark: {
+    bodyColor: rgba(hexToRgb('201727'), 1.0),
+    backgroundColor: rgba(hexToRgb('261b2e'), 1.0),
+    fontColor: rgba(hexToRgb('fd724e'), 1.0),
+    borderColor: rgba(hexToRgb('5f2f45'), 1.0),
+    linkColor: rgba(hexToRgb('6eb8a8'), 1.0),
+    accentColor: rgba(hexToRgb('c6505a'), 1.0)
+  },
+  light: {
+    bodyColor: rgba(hexToRgb('ffffff'), 1.0),
+    backgroundColor: rgba(hexToRgb('eeeeee'), 1.0),
+    fontColor: rgba(hexToRgb('505050'), 1.0),
+    borderColor: rgba(hexToRgb('dddddd'), 1.0),
+    linkColor: rgba(hexToRgb('477DB8'), 1.0),
+    accentColor: rgba([240,32,80], 0.6)
+  },
   // https://lospec.com/palette-list/molten
-  {
+  molten: {
     bodyColor: rgba(hexToRgb('201727'), 1.0),
     backgroundColor: rgba(hexToRgb('261b2e'), 1.0),
     fontColor: rgba(hexToRgb('fd724e'), 1.0),
     borderColor: rgba(hexToRgb('5f2f45'), 1.0),
     linkColor: rgba(hexToRgb('a02f40'), 1.0),
     accentColor: rgba(hexToRgb('382d43'), 1.0)
+  },
+  arvind: {
+    bodyColor: rgba(hexToRgb('2f142f'), 1.0),
+    backgroundColor: rgba(hexToRgb('2a584f'), 1.0),
+    fontColor: rgba(hexToRgb('6eb8a8'), 1.0),
+    borderColor: rgba(hexToRgb('774448'), 1.0),
+    linkColor: rgba(hexToRgb('74a33f'), 1.0),
+    accentColor: rgba(hexToRgb('c6505a'), 1.0)
   }
-];
+};
 
 if(readCookie('palette')) {
   setPalette(palettes[readCookie('palette')]);
+} else {
+  createCookie('palette','dark',31);
 }
 
 $(document).ready(function() {
-  if(readCookie('palette')) {
-    paletteOne.style.display = "none";
+  switch(readCookie('palette')) {
+    case 'dark':
+      paletteDark.style.display = "none";
 
-    paletteZero.addEventListener('click', () => {
-      eraseCookie('palette');
-      redrawAnnotations();
-      location.reload();
-    });
-  } else {
-    paletteZero.style.display = "none";
+      paletteLight.addEventListener('click', () => {
+        createCookie('palette','light',31);
+        location.reload();
+      });
+      break;
+    case 'light':
+      paletteLight.style.display = "none";
 
-    paletteOne.addEventListener('click', () => {
-      setPalette(palettes[0]);
-      createCookie('palette',0,31);
-      redrawAnnotations();
-      location.reload();
-    });
-  }
+      paletteDark.addEventListener('click', () => {
+        createCookie('palette','dark',31);
+        location.reload();
+      });
+      break;
+  };
 
   let randomizeColors = document.querySelector('#randomizeColors');
 

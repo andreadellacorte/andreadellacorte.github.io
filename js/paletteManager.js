@@ -76,6 +76,7 @@ if(readCookie('palette')) {
   setPalette(palettes[readCookie('palette')]);
 } else {
   createCookie('palette','dark',31);
+  setPalette(palettes[readCookie('palette')]);
 }
 
 $(document).ready(function() {
@@ -100,33 +101,35 @@ $(document).ready(function() {
 
   let randomizeColors = document.querySelector('#randomizeColors');
 
-  randomizeColors.addEventListener('click', function () {
-    var url = "http://colormind.io/api/";
-    var data = {
-      model : "default",
-      input : ["N","N","N","N","N"]
-    };
+  if(randomizeColors) {
+    randomizeColors.addEventListener('click', function () {
+      var url = "http://colormind.io/api/";
+      var data = {
+        model : "default",
+        input : ["N","N","N","N","N"]
+      };
 
-    var http = new XMLHttpRequest();
+      var http = new XMLHttpRequest();
 
-    http.onreadystatechange = function() {
-      if(http.readyState == 4 && http.status == 200) {
-        var result = JSON.parse(http.responseText).result;
+      http.onreadystatechange = function() {
+        if(http.readyState == 4 && http.status == 200) {
+          var result = JSON.parse(http.responseText).result;
 
-        var palette = {
-          bodyColor: rgba(result[1], 1.0),
-          backgroundColor: rgba(result[0], 1.0),
-          fontColor: rgba(result[2], 1.0),
-          borderColor: rgba(result[3], 1.0),
-          linkColor: rgba(result[3], 1.0),
-          accentColor: rgba(result[4], 1.0)
-        };
+          var palette = {
+            bodyColor: rgba(result[1], 1.0),
+            backgroundColor: rgba(result[0], 1.0),
+            fontColor: rgba(result[2], 1.0),
+            borderColor: rgba(result[3], 1.0),
+            linkColor: rgba(result[3], 1.0),
+            accentColor: rgba(result[4], 1.0)
+          };
 
-        setPalette(palette);
+          setPalette(palette);
+        }
       }
-    }
 
-    http.open("POST", url, true);
-    http.send(JSON.stringify(data));
-  });
+      http.open("POST", url, true);
+      http.send(JSON.stringify(data));
+    });
+  }
 });

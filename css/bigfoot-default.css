@@ -10,7 +10,7 @@
   border-radius: 0.3em;
   cursor: pointer;
   opacity: 0.9;
-  background-color: #477DB8;
+  background-color: var(--link-color);
   line-height: 0;
   vertical-align: middle;
   text-decoration: none;

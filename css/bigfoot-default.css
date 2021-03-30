@@ -31,7 +31,7 @@
 }
 
 .bigfoot-footnote__button span {
-  color: white;
+  color: var(--body-color);;
   font-family: monospace;
 }
 

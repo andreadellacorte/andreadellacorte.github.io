@@ -389,7 +389,7 @@ Datatables Decorations
 .remarkdown.table-marker thead > tr > th.dt-center.sorting {
   padding-bottom: 1.0em;
   padding-top: 1.0em;
-  min-width: 65px;
+  min-width: 40px;
 }
 
 table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3 {

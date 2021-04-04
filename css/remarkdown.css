@@ -552,3 +552,7 @@ img.photo {
   border-radius: 50%;
   width:auto;
 }
+
+::selection {
+  background: var(--link-color);
+}

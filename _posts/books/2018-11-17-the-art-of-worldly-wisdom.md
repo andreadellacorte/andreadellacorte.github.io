@@ -59,7 +59,7 @@ PS: The table is interactive, you can click on the columns to sort the content :
 <div class="remarkdown table-marker" markdown="block">
 
   {:#dataTables .order-column}
-  | Number | Title | Frequency | Domain | Grace |
+  | # | Title | Frequency | Domain | Grace |
   |---|---|---|---|---|
   | 001	| All has reached perfection, and becoming a true person is the greatest perfection of all | Barely | Social | Relations |
   | 002	| Character and intelligence | Occasionally | Social | Relations |

@@ -374,26 +374,31 @@ Datatables Decorations
 
 .remarkdown.table-marker tr > * {
   position: relative;
-  padding: 1.0em 2.0em 0.0em 0.0em;
+  padding: 0.0em 0.5em 0.3em 0.5em;
   text-align: inherit;
   vertical-align: top;
   font-weight: normal;
   border: none;
-  padding-bottom: 0.25em;
-  background-color: var(--background-color);
+  background-color: var(--body-color);
 }
 
-.remarkdown.table-marker tr > * + * {
+.remarkdown.table-marker.principles-table tr > * + * {
   padding-left: 3ch;
 }
 
-.remarkdown.table-marker tr:first-child > th:not([scope="row"]) {
-  padding-bottom: 1.5em;
-  padding-left: 1.5em;
+.remarkdown.table-marker thead > tr > th.dt-center.sorting {
+  padding-bottom: 1.0em;
+  padding-top: 1.0em;
+  min-width: 65px;
 }
 
 table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3 {
-  background-color: var(--background-color);
+  background-color: var(--body-color);
+}
+
+.remarkdown.table-marker.principles-table tr:first-child > th:not([scope="row"]) {
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
 }
 
 .remarkdown.table-marker tr:first-child > th:not([scope="row"])::after {
@@ -574,14 +579,4 @@ img.photo {
   object-fit: cover;
   border-radius: 50%;
   width:auto;
-}
-
-::selection {
-  color: var(--background-color);
-  background: var(--link-color);
-}
-
-::-moz-selection { /* Code for Firefox */
-  color: var(--background-color);
-  background: var(--link-color);
 }

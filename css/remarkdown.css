@@ -554,5 +554,11 @@ img.photo {
 }
 
 ::selection {
+  color: var(background-color);
+  background: var(--link-color);
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: var(background-color);
   background: var(--link-color);
 }

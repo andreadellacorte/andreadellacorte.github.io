@@ -359,6 +359,10 @@ hr {
   content: "~~";
 }
 
+/*
+Datatables Decorations
+*/
+
 .remarkdown.table-marker table {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -369,14 +373,14 @@ hr {
 }
 
 .remarkdown.table-marker tr > * {
-  min-width: 3ch;
   position: relative;
-  padding: 0;
+  padding: 1.0em 2.0em 0.0em 0.0em;
   text-align: inherit;
   vertical-align: top;
   font-weight: normal;
   border: none;
   padding-bottom: 0.25em;
+  background-color: var(--background-color);
 }
 
 .remarkdown.table-marker tr > * + * {
@@ -385,6 +389,11 @@ hr {
 
 .remarkdown.table-marker tr:first-child > th:not([scope="row"]) {
   padding-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+
+table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3 {
+  background-color: var(--background-color);
 }
 
 .remarkdown.table-marker tr:first-child > th:not([scope="row"])::after {
@@ -392,7 +401,7 @@ hr {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 1.5em;
   overflow: hidden;
   word-break: break-all;
   height: 1.5em;
@@ -406,10 +415,24 @@ hr {
   content: "|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a";
   position: absolute;
   overflow: hidden;
-  left: 1ch;
+  left: -0.3em;
   top: 0;
   bottom: 0;
   white-space: pre;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: inherit;
+  padding-bottom: 1.0em;
+}
+
+.dataTables_wrapper .dataTables_filter input, select {
+  color: var(--font-color);
+}
+
+.dataTables_wrapper .dataTables_length select {
+  color: var(--font-color);
+  background-color: var(--background-color)
 }
 
 /**

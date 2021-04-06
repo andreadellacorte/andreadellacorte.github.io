@@ -5,7 +5,7 @@ category: software-development
 toc: true
 ---
 
-## Why OOP?
+### Why OOP?
 
 The Object Oriented Programming (OOP) Languages directly represent the real life objects like Car, Jeep, Account, Customer, etc. Its key benefits are increased quality and reduced development time, due to:
 
@@ -13,7 +13,7 @@ The Object Oriented Programming (OOP) Languages directly represent the real life
 - ***Real mapping to the problem domain:*** Objects map to real world and represent vehicles, customers, products etc: with encapsulation;
 - ***Modular Architecture:*** Objects, systems, frameworks, etc. are the building blocks of larger systems.
 
-## Common terms
+### Common terms
 
 - ***Abstraction*** is a more generic term, it can also be achieved by (amongst others) subclassing. For example, the interface List in the standard library is an abstraction for a sequence of items, indexed by their position, concrete examples of a List are an ArrayList or a LinkedList. Code that interacts with a List abstracts over the detail of which kind of a list it is using.
 - ***Classes*** are blueprints or prototypes used to create objects.

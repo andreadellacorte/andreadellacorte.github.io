@@ -5,7 +5,7 @@ category: notes
 toc: true
 ---
 
-List of recipes covered in Gustavo's birthday cocktail class.
+List of recipes covered in Gustavo's birthday cocktail class, presented by [@ferdiamurray](https://www.instagram.com/ferdiamurray/).
 
 ### But First...
 

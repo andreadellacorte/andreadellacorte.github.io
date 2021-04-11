@@ -14,7 +14,7 @@ List of recipes covered in Gustavo's birthday cocktail class, presented by [@fer
 1. Balance - no flavour should stand up too much, though a lot here depends on preferences
 2. Temperature - coldest drink possible, made in the shortest time possible; if you can, big cubes of ice retain flavour for longer, also: freeze your glasses!
 3. Dilution - water is the glue that binds the ingredients together - usually directly inverse to the coldness of ice
-4. Always use fresh ingredients
+4. Ingredients - always use fresh
 
 ### Daiquiri
 
@@ -35,7 +35,7 @@ Shake with ice and strain into cocktail glass. No Garnish.
 
 Cut lime into 4 segments and put straight into bottom of tall glass. Add the sugar to the lime wedges and then muddle gently to extract the juice and essential oils. Take your mint leaves and ‘clap’ them to release aroma before adding to glass. Then you can add the rum. Fill your glass 3/4 with ice before churning by lifting mint and limes through the glass until you’ve added dilution and dropped the temperature. Top glass with ice and add a small splash of soda before garnishing with a mint bouquet for aroma.
 
-### Dark ‘n’ Stormy/Cuba Libre
+### Dark ‘n’ Stormy / Cuba Libre
 
 - Half Lime squeezed
 - 2oz Rum (Dark preferably)

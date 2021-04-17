@@ -64,6 +64,15 @@ var palettes = {
     accentColor: rgba(hexToRgb('778299'), 1.0),
     fontColor: rgba(hexToRgb('fbcdcd'), 1.0)
   },
+  // http://futureland.tv
+  futureland: {
+    bodyColor: rgba(hexToRgb('000000'), 1.0),
+    backgroundColor: rgba(hexToRgb('000000'), 1.0),
+    fontColor: rgba(hexToRgb('ffc0c0'), 1.0),
+    borderColor: rgba(hexToRgb('ffffff'), 1.0),
+    linkColor: rgba(hexToRgb('ffffff'), 1.0),
+    accentColor: rgba(hexToRgb('9a98ff'), 1.0)
+  },
   // https://lospec.com/palette-list/funtime5
   funtime: {
     backgroundColor: rgba(hexToRgb('ffd090'), 1.0),
@@ -140,6 +149,7 @@ $(document).ready(function() {
       paletteRobots.style.display = "none";
       paletteDark.style.display = "none";
       paletteFuntime.style.display = "none";
+      paletteFutureland.style.display = "none";
 
       paletteLight.addEventListener('click', () => {
         createCookie('palette','light',31);
@@ -150,6 +160,7 @@ $(document).ready(function() {
       paletteLight.style.display = "none";
       paletteDark.style.display = "none";
       paletteFuntime.style.display = "none";
+      paletteFutureland.style.display = "none";
 
       paletteRobots.addEventListener('click', () => {
         createCookie('palette','robots',31);
@@ -160,6 +171,7 @@ $(document).ready(function() {
       paletteRobots.style.display = "none";
       paletteLight.style.display = "none";
       paletteDark.style.display = "none";
+      paletteFutureland.style.display = "none";
 
       paletteFuntime.addEventListener('click', () => {
         createCookie('palette','funtime',31);
@@ -170,6 +182,18 @@ $(document).ready(function() {
       paletteRobots.style.display = "none";
       paletteLight.style.display = "none";
       paletteFuntime.style.display = "none";
+      paletteDark.style.display = "none";
+
+      paletteFutureland.addEventListener('click', () => {
+        createCookie('palette','futureland',31);
+        location.reload();
+      });
+      break;
+    case 'futureland':
+      paletteLight.style.display = "none";
+      paletteFuntime.style.display = "none";
+      paletteFutureland.style.display = "none";
+      paletteRobots.style.display = "none";
 
       paletteDark.addEventListener('click', () => {
         createCookie('palette','dark',31);

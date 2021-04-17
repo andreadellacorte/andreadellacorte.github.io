@@ -1,4 +1,5 @@
 require 'html-proofer'
+require 'os'
 
 task default: %w[ run ]
 
@@ -17,5 +18,9 @@ task :test do
 end
 
 task :run do
-  sh %{ bundle exec 'jekyll serve --livereload --drafts --config "_config.yml,_config.dev.yml"' }
+  if OS.windows?
+     sh %{ bundle exec 'jekyll serve --drafts --config "_config.yml,_config.dev.yml"' }
+  else
+    sh %{ bundle exec 'jekyll serve --livereload --drafts --config "_config.yml,_config.dev.yml"' }
+  end
 end

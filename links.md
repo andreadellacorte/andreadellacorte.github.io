@@ -30,6 +30,7 @@ title: Links
 
 - [Pickle Cat](https://dn.ht/picklecat/)
 - [Dance Tonite](https://tonite.dance/)
+- [The Endless Acid Banger](https://www.vitling.xyz/toys/acid-banger/)
 
 ### UX
 

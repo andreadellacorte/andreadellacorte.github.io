@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Barrels and Ammunitions
-category: humanness
+category: notes
 ---
 
 Source: [How to Operate with Keith Rabois (How to Start a Startup 2014: Lecture 14)](https://www.youtube.com/watch?v=w19IBxDu2Y4)

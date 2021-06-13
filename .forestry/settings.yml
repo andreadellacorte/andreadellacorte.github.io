@@ -12,13 +12,13 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: jekyll-pages
   label: Pages
   create: all
-  new_doc_ext: ".md"
-upload_dir: uploads
-public_path: "/uploads"
+  new_doc_ext: md
+upload_dir: static
+public_path: "/static"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

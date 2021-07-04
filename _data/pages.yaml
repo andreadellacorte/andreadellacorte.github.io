@@ -1,22 +1,18 @@
+---
 list:
-
+- title: coaching
+  url: "/coaching"
 - title: principles
-  url: /
-
+  url: "/"
 - title: bookshelf
-  url: /bookshelf
-
+  url: "/bookshelf"
 - title: invitation
-  url: /invitation
-
+  url: "/invitation"
 - title: links
-  url: /links
-
+  url: "/links"
 - title: about
-  url: /about
-
+  url: "/about"
 - title: resume
-  url: /resume
-
+  url: "/resume"
 - title: rss
-  url: /feed.xml
+  url: "/feed.xml"

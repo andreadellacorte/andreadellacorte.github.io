@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Configs
   create: all
-  match: config*
+  match: '"*.yml"'
 - type: directory
   path: _data
   label: Data

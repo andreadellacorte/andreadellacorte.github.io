@@ -1,44 +1,32 @@
+---
 title: Andrea Della Corte
-
 description: Organisational coach &amp; aspiring expert
-
 url: https://dellacorte.me
-
 environment: production
-
 images: static/imgs
 docs: static/docs
-
 github: https://github.com/andreadellacorte/andreadellacorte.github.io/tree/master/
-
 twitter_username: adielleci
-
 timezone: Europe/London
-
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-compress-images
-
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-compress-images
 exclude:
-  - _compress_images_cache.yml
-  - _includes/notes_graph.json
-
+- _compress_images_cache.yml
+- _includes/notes_graph.json
+- vendor/bundle
 imageoptim:
   svgo: false
-
 author: Andrea Della Corte
-
 collections:
   presentations:
     output: true
-
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: /:categories/:title/
-
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/:categories/:title/"
 compress_images:
-  images_path: "static/imgs/**/*.{gif,png,jpg,jpeg,svg}"
+  images_path: static/imgs/**/*.{gif,png,jpg,jpeg,svg}

@@ -1,7 +1,5 @@
 ---
 list:
-- title: coaching
-  url: "/coaching"
 - title: principles
   url: "/"
 - title: bookshelf
@@ -10,9 +8,11 @@ list:
   url: "/invitation"
 - title: links
   url: "/links"
-- title: about
-  url: "/about"
+- title: coaching
+  url: "/coaching"
 - title: resume
   url: "/resume"
+- title: about
+  url: "/about"
 - title: rss
   url: "/feed.xml"

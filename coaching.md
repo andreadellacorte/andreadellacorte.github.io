@@ -9,4 +9,4 @@ During my time as Software Developer Engineer and Technical Program Manager with
 
 Additionally, I've worked with nonprofits like Code Your Future and has mentored / coached over 30+ folks on topics like career development, interviewing and general life skills.
 
-If you're interested, get in touch with me at \[andrea@dellacorte.me\](mailto:andrea@dellacorte.me\]
+If you're interested, get in touch with me at \[andrea@dellacorte.me\](mailto:andrea@dellacorte.me)

@@ -23,10 +23,14 @@ sections:
   label: Posts
   create: all
   new_doc_ext: md
+  templates:
+  - post
 - type: jekyll-pages
   label: Pages
   create: all
   new_doc_ext: md
+  templates:
+  - page
 upload_dir: static
 public_path: "/static"
 front_matter_path: ''

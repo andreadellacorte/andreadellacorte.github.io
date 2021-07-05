@@ -14,5 +14,5 @@ list:
   url: "/resume"
 - title: about
   url: "/about"
-- title: rss
+- title: <i class="fas fa-rss"></i> rss
   url: "/feed.xml"

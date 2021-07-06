@@ -210,7 +210,7 @@ $(document).ready(function() {
       paletteDark.style.display = "none";
 
       paletteMusic.addEventListener('click', () => {
-        createCookie('palette','dark',31);
+        createCookie('palette','music',31);
         location.reload();
       });
       break;

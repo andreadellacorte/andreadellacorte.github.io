@@ -7,7 +7,7 @@ toc: false
 ---
 From ["The Playbook – A coach’s rules for life", curioslog.com](https://curiouslog.com/the-playbook-a-coachs-rules-for-life/ '"The Playbook – A coach’s rules for life", curioslog.com')
 
-[Doc Rivers](https://en.wikipedia.org/wiki/Doc_Rivers) ( Basketball)
+[Doc Rivers](https://en.wikipedia.org/wiki/Doc_Rivers) (Basketball)
 
 * Pressure is a privilege _(what a way to shift our mindset – from stress to gratitude)_
 * finish the race
@@ -15,7 +15,7 @@ From ["The Playbook – A coach’s rules for life", curioslog.com](https://curi
 * ubuntu – I am because we are
 * champions keep moving ahead
 
-[Jill Ellis](https://en.wikipedia.org/wiki/Jill_Ellis) ( US women’s soccer team)
+[Jill Ellis](https://en.wikipedia.org/wiki/Jill_Ellis) (Soccer)
 
 * not just about how you become the best, but stay the best. mountaintops are small and air is thin
 * hold fast , stay true. Believe in yourself
@@ -23,7 +23,7 @@ From ["The Playbook – A coach’s rules for life", curioslog.com](https://curi
 * be true to yourself
 * if you want to be heard, make a statement _(references the equal pay protest)_
 
-[Jose Mourinho](https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho)
+[Jose Mourinho](https://en.wikipedia.org/wiki/Jos%C3%A9_Mourinho) (Soccer)
 
 * understand your audience
 * if you are prepared for the worst, you are prepared
@@ -32,7 +32,7 @@ From ["The Playbook – A coach’s rules for life", curioslog.com](https://curi
 * the train doesn’t stop twice
 * **don’t coach the player, coach the team**. They already know how to play. Teach them how to play in that team _(my favorite)_
 
-[Patrick Mouratoglou](https://en.wikipedia.org/wiki/Patrick_Mouratoglou) (tennis)
+[Patrick Mouratoglou](https://en.wikipedia.org/wiki/Patrick_Mouratoglou) (Tennis)
 
 * your biggest weakness can be your greatest strength
 * never be afraid to get fired
@@ -42,7 +42,7 @@ From ["The Playbook – A coach’s rules for life", curioslog.com](https://curi
 * a good lie can become the truth _(how a lie helped Serena Williams during the Wimbledon)_
 * everything depends on you
 
-[Dawn Staley](https://en.wikipedia.org/wiki/Dawn_Staley) (basketball)
+[Dawn Staley](https://en.wikipedia.org/wiki/Dawn_Staley) (Basketball)
 
 * bring your own ball
 * growth takes place outside of the comfort zone

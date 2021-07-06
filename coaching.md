@@ -13,7 +13,4 @@ Additionally, I've worked with nonprofits like [Code Your Future]() and mentored
 
 If you'd like to improve your success chances book a session below or get in touch with me directly at [andrea@dellacorte.me](mailto:andrea@dellacorte.me)!
 
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/dellacorte" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+<!-- Calendly inline widget begin --> <div class="calendly-inline-widget" data-url="https://calendly.com/dellacorte" style="min-width:320px;height:500px;"></div> <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> <!-- Calendly inline widget end -->

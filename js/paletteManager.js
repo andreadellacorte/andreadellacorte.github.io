@@ -82,6 +82,15 @@ var palettes = {
     accentColor: rgba(hexToRgb('716cb0'), 1.0),
     fontColor: rgba(hexToRgb('79e0cf'), 1.0)
   },
+  // https://www.musicforprogramming.net/
+  music: {
+    backgroundColor: rgba(hexToRgb('00303e'), 1.0),
+    borderColor: rgba(hexToRgb('999999'), 1.0),
+    bodyColor: rgba(hexToRgb('00303e'), 1.0),
+    linkColor: rgba(hexToRgb('ec007c'), 1.0),
+    accentColor: rgba(hexToRgb('999999'), 1.0),
+    fontColor: rgba(hexToRgb('f8f8f2'), 1.0)
+  },
   hilda: {
     backgroundColor: rgba(hexToRgb('ffd090'), 1.0),
     borderColor: rgba(hexToRgb('e07ab3'), 1.0),
@@ -150,6 +159,7 @@ $(document).ready(function() {
       paletteDark.style.display = "none";
       paletteFuntime.style.display = "none";
       paletteFutureland.style.display = "none";
+      paletteMusic.style.display = "none";
 
       paletteLight.addEventListener('click', () => {
         createCookie('palette','light',31);
@@ -161,6 +171,7 @@ $(document).ready(function() {
       paletteDark.style.display = "none";
       paletteFuntime.style.display = "none";
       paletteFutureland.style.display = "none";
+      paletteMusic.style.display = "none";
 
       paletteRobots.addEventListener('click', () => {
         createCookie('palette','robots',31);
@@ -172,6 +183,7 @@ $(document).ready(function() {
       paletteLight.style.display = "none";
       paletteDark.style.display = "none";
       paletteFutureland.style.display = "none";
+      paletteMusic.style.display = "none";
 
       paletteFuntime.addEventListener('click', () => {
         createCookie('palette','funtime',31);
@@ -183,6 +195,7 @@ $(document).ready(function() {
       paletteLight.style.display = "none";
       paletteFuntime.style.display = "none";
       paletteDark.style.display = "none";
+      paletteMusic.style.display = "none";
 
       paletteFutureland.addEventListener('click', () => {
         createCookie('palette','futureland',31);
@@ -194,6 +207,19 @@ $(document).ready(function() {
       paletteFuntime.style.display = "none";
       paletteFutureland.style.display = "none";
       paletteRobots.style.display = "none";
+      paletteDark.style.display = "none";
+
+      paletteMusic.addEventListener('click', () => {
+        createCookie('palette','dark',31);
+        location.reload();
+      });
+      break;
+    case 'music':
+      paletteLight.style.display = "none";
+      paletteFuntime.style.display = "none";
+      paletteFutureland.style.display = "none";
+      paletteRobots.style.display = "none";
+      paletteMusic.style.display = "none";
 
       paletteDark.addEventListener('click', () => {
         createCookie('palette','dark',31);

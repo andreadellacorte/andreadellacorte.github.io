@@ -85,10 +85,10 @@ var palettes = {
   // https://www.musicforprogramming.net/
   music: {
     backgroundColor: rgba(hexToRgb('00303e'), 1.0),
-    borderColor: rgba(hexToRgb('999999'), 1.0),
+    borderColor: rgba(hexToRgb('66D9EF'), 1.0),
     bodyColor: rgba(hexToRgb('00303e'), 1.0),
     linkColor: rgba(hexToRgb('ec007c'), 1.0),
-    accentColor: rgba(hexToRgb('999999'), 1.0),
+    accentColor: rgba(hexToRgb('ae81ff'), 1.0),
     fontColor: rgba(hexToRgb('f8f8f2'), 1.0)
   },
   hilda: {

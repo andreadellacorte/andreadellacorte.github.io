@@ -398,7 +398,6 @@ table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column
 
 .remarkdown.table-marker.principles-table tr:first-child > th:not([scope="row"]) {
   padding-bottom: 1.5em;
-  padding-left: 1.5em;
 }
 
 .remarkdown.table-marker tr:first-child > th:not([scope="row"])::after {

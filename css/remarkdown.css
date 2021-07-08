@@ -417,7 +417,7 @@ table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column
 }
 
 .remarkdown.table-marker tr > * + *::before {
-  content: "|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a";
+  content: "|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a|\a";
   position: absolute;
   overflow: hidden;
   left: -0.3em;

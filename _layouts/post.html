@@ -8,8 +8,14 @@ layout: base
 	{% capture words %}
 		{{ page.content | number_of_words | minus: 220 }}
 	{% endcapture %}
-	On {{ page.date | date: "%B %-d, %Y"  }} in
-	<a href="/">{{ page.category }}</a> • <i class="fa fa-clock-o"></i>
+	On {{ page.date | date: "%B %-d, %Y"  }}
+
+  {% if page.category %}
+		in <a href="/{{ page.category }}">{{ page.category }}</a>
+	{% endif %}
+
+	 • <i class="fa fa-clock-o"></i>
+
 	{% if words contains "-" %}
 		1 minute read
 	{% else %}
@@ -29,6 +35,8 @@ layout: base
 	Suggestions? Send over a PR request on <a href="{{ site.github }}{{page.path}}">Github</a>
 </div>
 -->
+
+<a href="#top" onclick='window.scrollTo({top: 0, behavior: "smooth"}); return false;'>Back to top ↑</a>
 
 {% include related.html %}
 

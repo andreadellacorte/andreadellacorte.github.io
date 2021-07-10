@@ -6,7 +6,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
     graph_nodes = []
     graph_edges = []
 
-    all_notes = site.collections['posts'].docs
+    all_notes = site.collections['posts'].docs + site.collections['category'].docs + site.collections['newsletters'].docs
     all_pages = site.pages
 
     all_docs = all_notes + all_pages
@@ -49,6 +49,10 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         )
       end
 
+      result = current_note.content[/\[\[(.*)\]\]/i]
+
+      raise Exception.new "Link not existing in #{current_note.basename} - #{result}" if result
+
       # At this point, all remaining double-bracket-wrapped words are
       # pointing to non-existing pages, so let's turn them into disabled
       # links by greying them out and changing the cursor
@@ -58,7 +62,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
           <span title='There is no note that matches this link.' class='invalid-link'>
             <span class='invalid-link-brackets'>[[</span>
             \\1
-            <span class='invalid-link-brackets'>]]</span></span>
+            <span class='invalid-link-brackets'>]]</span>
         HTML
       )
     end

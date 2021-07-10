@@ -5,12 +5,12 @@
 	{% include header.html %}
 	{% include styling.html %}
 	</head>
-	<body class="remarkdown">
+	<body class="remarkdown h2-underline ul-star">
 		{% if site.environment == 'production' %}
 		  {% include body_analytics.html %}
 		{% endif %}
 		{% include nav.html %}
-		<main class="remarkdown">
+		<main>
 			{{ content }}
 		</main>
 		<script src="https://instant.page/5.1.0"

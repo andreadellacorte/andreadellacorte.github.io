@@ -13,7 +13,7 @@ I like managing software projects, reading, travelling and playing videogames (t
 
 I ❤️ my wife, kid and dog.
 
-I have a background in Software Engineering and work at [Improbable](https://improbable.io) as Head of Program Management in the Games Tech Unit.
+I have a background in Software Engineering and work at [Improbable](https://improbable.io) as Head of Program Management in the Games Tech Unit. If you want to know more about me, see my [resume](/resume).
 
 I used to practice boxing and other martial arts, but my knee isn't what it used to be, so now I am into rowing (3000m in 11m46s). I also like swimming (500m in 13m53s) and taking long walks with my doggy.
 

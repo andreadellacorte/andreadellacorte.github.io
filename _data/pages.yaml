@@ -2,17 +2,15 @@
 list:
 - title: principles
   url: "/"
-- title: bookshelf
+- title: books
   url: "/bookshelf"
 - title: invitation
   url: "/invitation"
-- title: links
-  url: "/links"
 - title: coaching
   url: "/coaching"
-- title: resume
-  url: "/resume"
 - title: about
   url: "/about"
+- title: newsletter
+  url: "/newsletters"
 - title: <i class="fa fa-rss" aria-hidden="true"></i> rss
-  url: "/feed.xml"
+  url: "/feed/newsletters.xml"

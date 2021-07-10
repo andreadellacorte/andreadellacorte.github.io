@@ -1,8 +1,8 @@
-<h2>Related <a href="#top" onclick='window.scrollTo({top: 0, behavior: "smooth"}); return false;'>Back to top ↑</a></h2>
+<h2>Related</h2>
 
 <h3>Other {% include pretty-category.html category=page.category %} Pages</h3>
 
-{% unless site.categories[page.category].size == 1 %}
+{% if site.categories[page.category].size >= 1 %}
   <span id="related"></span>
   <ul>
     {% for post in site.categories[page.category] %}
@@ -15,7 +15,7 @@
   </ul>
 {% else %}
   No other posts in {% include pretty-category.html category=page.category %} yet.
-{% endunless %}
+{% endif %}
 
 <h3>Pages mentioning this post</h3>
 

@@ -8,7 +8,7 @@ title: Presentations
 * [Engineering Management Mindmap](engineering_management)
 * [Code](code)
 * [Example](example)
-* [OKRs](okrs)
+* [[Objectives and Key Results]]
 
 {% if page.comments %}
 	{% include comments.html %}

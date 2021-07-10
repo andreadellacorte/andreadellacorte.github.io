@@ -16,11 +16,18 @@ exclude:
 - _compress_images_cache.yml
 - _includes/notes_graph.json
 - vendor/bundle
+feed:
+  collections:
+    - newsletters
 imageoptim:
   svgo: false
 author: Andrea Della Corte
 collections:
   presentations:
+    output: true
+  newsletters:
+    output: true
+  category:
     output: true
 defaults:
 - scope:
@@ -28,5 +35,15 @@ defaults:
     type: posts
   values:
     permalink: "/:categories/:title/"
+- scope:
+    path: ''
+    type: newsletters
+  values:
+    permalink: "/:categories/:title/"
+- scope:
+    path: ''
+    type: category
+  values:
+    permalink: "/:categories/index.html"
 compress_images:
   images_path: static/imgs/**/*.{gif,png,jpg,jpeg,svg}

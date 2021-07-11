@@ -28,22 +28,25 @@
   font-size: 0.75em;
   padding-top: 0.53em;
   -webkit-font-smoothing: antialiased;
+  color: var(--body-color);
 }
 
 .bigfoot-footnote__button span {
-  color: var(--body-color);;
   font-family: monospace;
 }
 
 .bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus {
   outline: none;
-  background-color: rgba(110, 110, 110, 0.5);
+  color: var(--link-color);
+  background-color: var(--accent-color);
 }
 .bigfoot-footnote__button:active {
-  background-color: rgba(110, 110, 110, 0.5);
+color: var(--link-color);
+  background-color: var(--accent-color);
 }
 .bigfoot-footnote__button.is-active {
-  background-color: #6e6e6e;
+color: var(--link-color);
+  background-color: var(--accent-color);
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
 }
@@ -91,7 +94,7 @@
   margin: 1.96924em 0;
   opacity: 0;
   border-radius: 0.5em;
-  border: 1px solid #FF86B6;
+  border: 1px solid var(--border-color);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   line-height: 0;
   -webkit-transition-property: opacity, -webkit-transform;
@@ -113,7 +116,7 @@
 .bigfoot-footnote.is-active {
   -webkit-transform: scale(1) translateZ(0);
           transform: scale(1) translateZ(0);
-  opacity: 0.97;
+  opacity: 1.0;
 }
 .bigfoot-footnote.is-bottom-fixed {
   position: fixed;
@@ -207,7 +210,7 @@
   box-sizing: inherit;
   overflow: hidden;
   margin: 0;
-  background-color: #fafafa;
+  background-color: var(--body-color);
   border-radius: 0.5em;
   line-height: 0;
 }
@@ -221,7 +224,7 @@
   box-sizing: inherit;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  background: #ffffff;
+  background: var(--body-color);
   border-radius: 0.5em;
   -webkit-font-smoothing: subpixel-antialiased;
   line-height: normal;

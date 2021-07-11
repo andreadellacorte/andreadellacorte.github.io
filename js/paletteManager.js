@@ -148,7 +148,7 @@ var palettes = {
 if(readCookie('palette')) {
   setPalette(palettes[readCookie('palette')]);
 } else {
-  createCookie('palette','music',31);
+  createCookie('palette','music', 31);
   setPalette(palettes[readCookie('palette')]);
 }
 

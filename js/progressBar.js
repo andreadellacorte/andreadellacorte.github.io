@@ -9,9 +9,9 @@ function progress() {
     .getPropertyValue('--font-color');
 
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var height = document.documentElement.scrollHeight - Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
   var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
 
+  document.getElementById("myBar").style.width = scrolled + "%";
   document.getElementById("myBar").style.backgroundColor = scrolled > 99 ? linkColor : fontColor;
 }

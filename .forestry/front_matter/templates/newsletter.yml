@@ -1,0 +1,19 @@
+---
+label: Newsletter
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: category
+  label: category
+- type: boolean
+  name: toc
+  label: toc

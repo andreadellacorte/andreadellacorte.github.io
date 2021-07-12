@@ -14,6 +14,9 @@ fields:
 - type: text
   name: category
   label: category
+  hidden: false
+  default: newsletters
 - type: boolean
   name: toc
   label: toc
+  default: false

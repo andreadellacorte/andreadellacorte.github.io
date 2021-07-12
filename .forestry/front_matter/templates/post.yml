@@ -14,6 +14,3 @@ fields:
 - type: boolean
   name: toc
   label: toc
-pages:
-- _posts/humanness/coaches-rules-for-life.md
-- _posts/humanness/no-nos.md

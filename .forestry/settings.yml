@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: _newsletters
+  label: Newsletters
+  create: all
+  match: "**/*"
+- type: directory
   path: ''
   label: Configs
   create: all

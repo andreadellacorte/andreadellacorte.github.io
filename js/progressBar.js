@@ -1,5 +1,6 @@
-// When the user scrolls the page, execute progress()
+// When the user scrolls or resizes the page, execute progress()
 window.onscroll = function() {progress()};
+window.onresize = function() {progress()};
 
 function progress() {
   const linkColor = getComputedStyle(document.documentElement)
